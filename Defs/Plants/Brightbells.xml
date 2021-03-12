@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+<ThingDef ParentName="CavePlantBase">
+    <defName>Tox_Brightbells</defName>
+    <label>brightbells</label>
+    <description>A symbotic relationship between a hardy plant and a bioluminescent fungus. The plant gains nutrients from the fungus and photosynthesizes from the light, and the fungus feeds off the fibrous material of the leaves that don't need to collect sunlight.</description>
+    <statBases>
+      <MaxHitPoints>15</MaxHitPoints>
+      <Flammability>0.3</Flammability>
+      <Beauty>20</Beauty>
+      <Nutrition>0.00000001</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Plants/Brightbells</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.3, 0.3, 0.3)</volume>
+      </shadowData>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <selectable>true</selectable>
+    <fillPercent>0.20</fillPercent>
+    <pathCost>15</pathCost>
+    <plant>
+      <topWindExposure>0.1</topWindExposure>
+      <harvestMinGrowth>0.90</harvestMinGrowth>
+      <harvestWork>100</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestAfterGrowth>0</harvestAfterGrowth>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <growDays>1</growDays>
+      <sowTags>
+        <li>Decorative</li>
+      </sowTags>
+    </plant>
+<comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>5</glowRadius>
+        <glowColor>(255,255,255,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+	
+
+  
+</Defs>

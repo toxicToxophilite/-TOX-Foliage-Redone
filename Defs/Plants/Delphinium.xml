@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="PlantBase">
+		<defName>Tox_Delphinium</defName>
+		<label>delphinium</label>
+		<description>Delphinium is a beautiful, toxic flower that's also known as larkspur. It comes in a variety of colors and is often used to line gardens. While the plant is known to be quite large, these delphinium are bred to stay small and cute.</description>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<Beauty>24</Beauty>
+			<Nutrition>0.05</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Plants/Delphinium</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		
+		<selectable>true</selectable>
+		<pathCost>10</pathCost>
+		<ingestible />
+		<plant>
+			<dieIfLeafless>true</dieIfLeafless>
+			<harvestTag>Standard</harvestTag>
+			<sowWork>1000</sowWork>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<growMinGlow>0.35</growMinGlow>
+			<topWindExposure>0.07</topWindExposure>
+			<growDays>3</growDays>
+			<lifespanDaysPerGrowDays>1</lifespanDaysPerGrowDays>
+			<visualSizeRange>0.3~0.4</visualSizeRange>
+			<wildOrder>1</wildOrder>
+			<purpose>Beauty</purpose>
+		</plant>
+	</ThingDef>
+
+
+</Defs>

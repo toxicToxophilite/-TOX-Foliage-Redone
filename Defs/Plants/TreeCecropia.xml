@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="TreeBase">
+    <defName>Tree_TreeCecropia</defName>
+    <label>cecropia tree</label>
+    <description>One of the most common rainforest trees. Cecropia grows very fast, but yields little usable wood.</description>
+    <graphicData>
+      <texPath>Plants/TreeCecropia</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.18, 0.3, 0.15)</volume>
+      </shadowData>
+      
+    </graphicData>
+    <statBases>
+      <Beauty>10</Beauty>
+      <Nutrition>1.2</Nutrition>
+    </statBases>
+    <plant>
+      <growDays>14</growDays>
+      <harvestWork>600</harvestWork>
+      <harvestYield>18</harvestYield>
+      <wildClusterRadius>10</wildClusterRadius>
+      <wildClusterWeight>11</wildClusterWeight>
+<visualSizeRange>2~2.05</visualSizeRange>
+      <blockAdjacentSow>false</blockAdjacentSow>
+	<wildBiomes>
+		<TemperateSwamp>0.03</TemperateSwamp>
+		<TropicalRainforest>.3</TropicalRainforest>
+		<TropicalSwamp>.3</TropicalSwamp>
+		<AridShrubland>0.03</AridShrubland>
+	</wildBiomes>
+    </plant>
+    <ingestible />
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Dandelion"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plants/Dandelions</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.3, 0.2, 0.15)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Dandelion"]/plant</xpath>
+	  <value>
+	    <plant>
+      <fertilitySensitivity>0.0</fertilitySensitivity>
+      <growDays>2.5</growDays>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <fertilityMin>0.05</fertilityMin>
+      <maxMeshCount>25</maxMeshCount>
+      <visualSizeRange>0.3~0.4</visualSizeRange>
+      <topWindExposure>0.3</topWindExposure>
+      <wildClusterRadius>4</wildClusterRadius>
+      <wildClusterWeight>8</wildClusterWeight>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+    </plant>
+	  </value>
+	</Operation>
+
+
+</Patch>

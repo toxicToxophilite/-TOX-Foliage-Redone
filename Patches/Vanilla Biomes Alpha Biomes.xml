@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>sarg.alphabiomes</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+
+                <!-- ================ Biome Arid Shrubland ================ -->
+
+
+		<li Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "AridShrubland"]/wildPlants</xpath>
+		<value>
+		    <wildPlants>
+			<AB_TangleTea>0.8</AB_TangleTea>
+			<AB_EuphorbiaRimworldia>0.6</AB_EuphorbiaRimworldia>
+			<AB_DeadBowerTree>0.46</AB_DeadBowerTree>
+		        <AB_FirevineTree>1.3</AB_FirevineTree>
+			<AB_TinkleGrass>3.0</AB_TinkleGrass>
+			<AB_BrownBarrelCactus>1</AB_BrownBarrelCactus>
+		    </wildPlants>
+		</value>
+	       </li>
+
+
+
+
+
+
+
+                <!-- ================ Biome Desert ================ -->
+
+
+		<li Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "Desert"]/wildPlants</xpath>
+		<value>
+		    <wildPlants>
+			<AB_TangleTea>0.4</AB_TangleTea>
+			<AB_EuphorbiaRimworldia>0.2</AB_EuphorbiaRimworldia>
+			<AB_DeadBowerTree>0.2</AB_DeadBowerTree>
+			<AB_TinkleGrass>2.0</AB_TinkleGrass>
+		    </wildPlants>
+		</value>
+	       </li>
+
+
+
+
+
+
+
+
+                <!-- ================ Biome Desert Extreme Desert ================ -->
+
+
+		<li Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "ExtremeDesert"]/wildPlants</xpath>
+		<value>
+		    <wildPlants>
+			<AB_TangleTea>0.04</AB_TangleTea>
+			<AB_EuphorbiaRimworldia>0.02</AB_EuphorbiaRimworldia>
+			<AB_DeadBowerTree>0.02</AB_DeadBowerTree>
+			<AB_TinkleGrass>1.0</AB_TinkleGrass>
+		    </wildPlants>
+		</value>
+	       </li>
+
+
+
+
+
+
+
+                <!-- ================ Biome Tropical Rainforest ================ -->
+
+		<li Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/wildPlants</xpath>
+		<value>
+		    <wildPlants>
+			<AB_JungleTree>1.1</AB_JungleTree>
+			<AB_Gomphoeria>0.15</AB_Gomphoeria>
+			<AB_RedBugloss>0.07</AB_RedBugloss>
+			<AB_Aaklac>0.05</AB_Aaklac>
+			<AB_FanPalm>6</AB_FanPalm>
+		    </wildPlants>
+		</value>
+	       </li>
+			
+
+
+
+
+
+
+
+	
+                <!-- ================ Biome Tropical Swamp================ -->
+
+
+		<li Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "TropicalSwamp"]/wildPlants</xpath>
+		<value>
+		    <wildPlants>
+			<AB_JungleTree>1.1</AB_JungleTree>
+			<AB_Gomphoeria>0.15</AB_Gomphoeria>
+			<AB_RedBugloss>0.07</AB_RedBugloss>
+			<AB_Aaklac>0.05</AB_Aaklac>
+			<AB_AgaricusDomeCap>0.01</AB_AgaricusDomeCap>
+			<AB_WitchesOyster>0.05</AB_WitchesOyster>
+			<AB_LilacBeacon>0.05</AB_LilacBeacon>
+			<AB_RecurvedStropharia>0.03</AB_RecurvedStropharia>
+			<AB_SlimyPholiota>0.02</AB_SlimyPholiota>
+			<AB_DribblingCap>0.01</AB_DribblingCap>
+			<AB_Glowstool>3</AB_Glowstool>
+			<AB_Agarilux>2</AB_Agarilux>
+			<AB_Bryolux>10</AB_Bryolux>
+			<AB_GlowingAgarilux>1</AB_GlowingAgarilux>
+			<AB_GiantAgarilux>.2</AB_GiantAgarilux>
+			<AB_ArbuscularMycorrhiza>0.02</AB_ArbuscularMycorrhiza>
+			<AB_FanPalm>6</AB_FanPalm>
+		    </wildPlants>
+		</value>
+	       </li>
+
+
+
+
+
+
+
+                <!-- ================ Biome Boreal Forest ================ -->
+
+
+		<li Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "BorealForest"]/wildPlants</xpath>
+		<value>
+		    <wildPlants>
+			<AB_RavenNettle>7</AB_RavenNettle>
+			<AB_GreenRockFern>3</AB_GreenRockFern>
+			<AB_SugarFamewort>1</AB_SugarFamewort>
+		    </wildPlants>
+		</value>
+	       </li>
+
+
+
+
+
+
+
+
+                <!-- ================ Biome Tundra ================ -->
+
+
+		<li Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "Tundra"]/wildPlants</xpath>
+		<value>
+		    <wildPlants>
+			<AB_RavenNettle>7</AB_RavenNettle>
+			<AB_GreenRockFern>3</AB_GreenRockFern>
+			<AB_SugarFamewort>.1</AB_SugarFamewort>
+			<AB_CrystalHorn>1</AB_CrystalHorn>
+			<AB_CrystalFlower>.1</AB_CrystalFlower>
+			<AB_FrostLeaf>.1</AB_FrostLeaf>
+			<AB_RimeNodules>.4</AB_RimeNodules>
+		    </wildPlants>
+		</value>
+	       </li>
+
+
+
+
+
+
+
+
+                <!-- ================ Biome Cold Bog ================ -->
+
+
+		<li Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "ColdBog"]/wildPlants</xpath>
+		<value>
+		    <wildPlants>
+			<AB_AgaricusDomeCap>0.01</AB_AgaricusDomeCap>
+			<AB_WitchesOyster>0.05</AB_WitchesOyster>
+			<AB_LilacBeacon>0.05</AB_LilacBeacon>
+			<AB_RecurvedStropharia>0.03</AB_RecurvedStropharia>
+			<AB_SlimyPholiota>0.02</AB_SlimyPholiota>
+			<AB_DribblingCap>0.01</AB_DribblingCap>
+			<AB_Glowstool>3</AB_Glowstool>
+			<AB_Agarilux>2</AB_Agarilux>
+			<AB_Bryolux>10</AB_Bryolux>
+			<AB_GlowingAgarilux>1</AB_GlowingAgarilux>
+			<AB_GiantAgarilux>.2</AB_GiantAgarilux>
+			<AB_ArbuscularMycorrhiza>0.02</AB_ArbuscularMycorrhiza>
+			<AB_RavenNettle>7</AB_RavenNettle>
+		    </wildPlants>
+		</value>
+	       </li>
+			
+
+
+
+
+
+
+	
+                <!-- ================ Biome Ice Sheet ================ -->
+
+			
+
+		<li Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "IceSheet"]/wildPlants</xpath>
+		<value>
+		    <wildPlants>
+			<AB_CrystalHorn>1</AB_CrystalHorn>
+			<AB_CrystalFlower>1</AB_CrystalFlower>
+			<AB_FrostLeaf>1</AB_FrostLeaf>
+			<AB_RimeNodules>4</AB_RimeNodules>
+		    </wildPlants>
+		</value>
+	       </li>
+
+
+
+
+
+
+	
+                <!-- ================ Biome Sea Ice ================ -->
+                
+
+
+
+
+
+
+
+                <!-- ================ Biome Temperate Forest ================ -->
+
+
+		<li Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "TemperateForest"]/wildPlants</xpath>
+		<value>
+		    <wildPlants>
+			<AB_RavenNettle>7</AB_RavenNettle>
+			<AB_GreenRockFern>3</AB_GreenRockFern>
+			<AB_SugarFamewort>1</AB_SugarFamewort>
+		    </wildPlants>
+		</value>
+	       </li>
+
+
+
+
+
+
+
+
+                <!-- ================ Biome Temperate Swamp ================ -->
+
+
+		<li Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "TemperateSwamp"]/wildPlants</xpath>
+		<value>
+		    <wildPlants>
+			<AB_AgaricusDomeCap>0.01</AB_AgaricusDomeCap>
+			<AB_WitchesOyster>0.05</AB_WitchesOyster>
+			<AB_LilacBeacon>0.05</AB_LilacBeacon>
+			<AB_RecurvedStropharia>0.03</AB_RecurvedStropharia>
+			<AB_SlimyPholiota>0.02</AB_SlimyPholiota>
+			<AB_DribblingCap>0.01</AB_DribblingCap>
+			<AB_Glowstool>3</AB_Glowstool>
+			<AB_Agarilux>2</AB_Agarilux>
+			<AB_Bryolux>10</AB_Bryolux>
+			<AB_GlowingAgarilux>1</AB_GlowingAgarilux>
+			<AB_GiantAgarilux>.2</AB_GiantAgarilux>
+			<AB_ArbuscularMycorrhiza>0.02</AB_ArbuscularMycorrhiza>
+			<AB_RavenNettle>7</AB_RavenNettle>
+		    </wildPlants>
+		</value>
+	       </li>
+
+
+
+
+
+
+
+            </operations>
+        </match>
+    </Operation>
+</Patch>

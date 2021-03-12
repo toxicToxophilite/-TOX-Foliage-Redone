@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Psychoid"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plants/Psychoid/Mature</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.3, 0.2, 0.15)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Psychoid"]/plant</xpath>
+	  <value>
+	    <plant>
+      		<maxMeshCount>4</maxMeshCount>
+		<wildClusterRadius>4</wildClusterRadius>
+		<wildClusterWeight>60</wildClusterWeight>
+		<growDays>9.00</growDays>
+		<dieIfLeafless>true</dieIfLeafless>
+		<harvestTag>Standard</harvestTag>
+		<harvestedThingDef>PsychoidLeaves</harvestedThingDef>
+		<harvestYield>8</harvestYield>
+		<sowMinSkill>6</sowMinSkill>
+		<topWindExposure>0.1</topWindExposure>
+		<visualSizeRange>0.3~0.8</visualSizeRange>
+		<wildOrder>1</wildOrder><immatureGraphicPath>Plants/Psychoid/Immature</immatureGraphicPath>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+    </plant>
+	  </value>
+	</Operation>
+
+
+</Patch>

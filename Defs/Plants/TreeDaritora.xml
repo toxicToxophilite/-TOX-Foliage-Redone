@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="DeciduousTreeBase">
+    <defName>Tox_Daritora</defName>
+    <label>Daritora tree</label>
+    <description>An odd evergreen tree with curled branches and blue wood.</description>
+    <graphicData>
+      <texPath>Plants/TreeDaritora</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+	   <shadowData>
+        <volume>(0.15, 0.3, 0.1)</volume>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <Beauty>8</Beauty>
+    </statBases>   
+    <passability>PassThroughOnly</passability>
+    <pathCost>130</pathCost>
+    <blockWind>true</blockWind>
+    <ingestible>
+      <foodType>Tree</foodType>
+      <preferability>RawBad</preferability>      
+    </ingestible>
+    <plant>
+			<growDays>33.40</growDays>
+			<fertilityMin>0.3</fertilityMin>
+			<fertilitySensitivity>0.5</fertilitySensitivity>			
+			<soundHarvesting>Harvest_Tree</soundHarvesting>
+			<soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
+			<sowWork>2000</sowWork>
+			<harvestWork>1000</harvestWork>
+			<harvestedThingDef>Wood</harvestedThingDef>
+			<harvestYield>50</harvestYield>
+			<harvestTag>Wood</harvestTag>
+			<harvestMinGrowth>0.70</harvestMinGrowth>
+			<harvestFailable>false</harvestFailable>
+      <blockAdjacentSow>false</blockAdjacentSow>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<visualSizeRange>2~3</visualSizeRange>
+			<topWindExposure>0.25</topWindExposure>
+      <wildClusterWeight>20</wildClusterWeight>
+			<wildOrder>3</wildOrder>
+      <wildClusterRadius>8</wildClusterRadius>
+    </plant>
+  </ThingDef>
+
+</Defs>

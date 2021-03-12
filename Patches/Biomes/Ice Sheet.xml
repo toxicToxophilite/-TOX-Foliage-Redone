@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Core</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+
+                <!-- ================ Biome Ice Sheet ================ -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/BiomeDef[defName = "IceSheet"]/plantDensity</xpath>
+                    <value>
+                        <plantDensity>1.5</plantDensity>
+                    </value>
+                </li>
+			
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="IceSheet"]/animalDensity</xpath>
+        <value>
+          <animalDensity>0.2</animalDensity>
+        </value>
+      </li>
+			
+
+
+		<li Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "IceSheet"]/wildPlants</xpath>
+		<value>
+		    <wildPlants>
+			<Plant_Grass>7</Plant_Grass>
+      			<Plant_Moss>6.5</Plant_Moss>
+			<Plant_Psychoid>0.03</Plant_Psychoid>
+			<Plant_TreePine>0.03</Plant_TreePine>
+	   		<Tox_Bearberry>0.25</Tox_Bearberry>
+			<Tox_Vashna>0.001</Tox_Vashna>
+		    </wildPlants>
+		</value>
+	       </li>
+
+
+            </operations>
+        </match>
+    </Operation>
+</Patch>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="PlantBase">
+    <defName>Tox_Daisies</defName>
+    <label>daisies</label>
+    <description>Daisies are pretty flowers that are called by countless names. As wildflowers they tend to be invasive and difficult to kill, but there are countless cultivated species as well.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>5</Beauty>
+	  <Nutrition>0.15</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Plants/Daisies</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <hideAtSnowDepth>0.5</hideAtSnowDepth>
+	<ingestible />
+		<selectable>true</selectable>
+		<pathCost>10</pathCost>
+    <plant>
+	  <dieIfLeafless>false</dieIfLeafless>
+	  <fertilitySensitivity>0.0</fertilitySensitivity>
+	  <growDays>1.9</growDays>
+	  <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <fertilityMin>0.05</fertilityMin>
+      <maxMeshCount>25</maxMeshCount>
+      <visualSizeRange>0.7~0.9</visualSizeRange>
+      <topWindExposure>0.3</topWindExposure>
+	  <wildClusterRadius>5</wildClusterRadius>
+	  <wildClusterWeight>8</wildClusterWeight>
+	  <wildOrder>1</wildOrder>
+    </plant>
+  </ThingDef>
+
+
+</Defs>

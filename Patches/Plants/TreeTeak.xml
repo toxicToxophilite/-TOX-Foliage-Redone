@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_TreeTeak"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plants/TreeTeak/Mature</texPath>
+      		  <graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_TreeTeak"]/statBases</xpath>
+	  <value>
+	    <statBases>
+      		<Beauty>2</Beauty>
+    	    </statBases>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_TreeTeak"]/plant</xpath>
+	  <value>
+	    <plant>
+      		<leaflessGraphicPath>Plants/TreeTeak/Leafless</leaflessGraphicPath>
+      		<growDays>32.5</growDays>
+      		<harvestWork>1800</harvestWork>
+      		<harvestYield>60</harvestYield>
+      		<visualSizeRange>3.5~5</visualSizeRange>
+      		<blockAdjacentSow>false</blockAdjacentSow>
+    	    </plant>
+	  </value>
+	</Operation>
+
+
+</Patch>

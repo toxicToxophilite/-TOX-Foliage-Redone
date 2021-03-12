@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+		
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Glowstool"]/plant</xpath>
+		<value>
+			<harvestAfterGrowth>0.05</harvestAfterGrowth>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Agarilux"]/plant</xpath>
+		<value>
+			<harvestAfterGrowth>0.05</harvestAfterGrowth>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Bryolux"]/plant</xpath>
+		<value>
+			<harvestAfterGrowth>0.05</harvestAfterGrowth>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Plant_Rice"]/plant</xpath>
+		<value>
+			<harvestAfterGrowth>0.20</harvestAfterGrowth>
+			<lifespanDaysPerGrowDays>6</lifespanDaysPerGrowDays>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Plant_Potato"]/plant</xpath>
+		<value>
+			<harvestAfterGrowth>0.05</harvestAfterGrowth>
+			<lifespanDaysPerGrowDays>6</lifespanDaysPerGrowDays>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Plant_Corn"]/plant</xpath>
+		<value>
+			<harvestAfterGrowth>0.05</harvestAfterGrowth>
+			<lifespanDaysPerGrowDays>6</lifespanDaysPerGrowDays>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Plant_Strawberry"]/plant</xpath>
+		<value>
+			<harvestAfterGrowth>0.15</harvestAfterGrowth>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Plant_Haygrass"]/plant</xpath>
+		<value>
+			<harvestAfterGrowth>0.05</harvestAfterGrowth>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Plant_Cotton"]/plant</xpath>
+		<value>
+			<harvestAfterGrowth>0.25</harvestAfterGrowth>
+			<lifespanDaysPerGrowDays>6</lifespanDaysPerGrowDays>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Plant_Devilstrand"]/plant</xpath>
+		<value>
+			<harvestAfterGrowth>0.10</harvestAfterGrowth>
+			<lifespanDaysPerGrowDays>6</lifespanDaysPerGrowDays>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Plant_Healroot"]/plant</xpath>
+		<value>
+			<harvestAfterGrowth>0.10</harvestAfterGrowth>
+			<lifespanDaysPerGrowDays>6</lifespanDaysPerGrowDays>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Plant_Smokeleaf"]/plant</xpath>
+		<value>
+			<harvestAfterGrowth>0.15</harvestAfterGrowth>
+			<lifespanDaysPerGrowDays>6</lifespanDaysPerGrowDays>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Plant_Psychoid"]/plant</xpath>
+		<value>
+			<harvestAfterGrowth>0.15</harvestAfterGrowth>
+			<lifespanDaysPerGrowDays>6</lifespanDaysPerGrowDays>
+		</value>
+	</Operation>
+	
+	
+	
+	
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Plant_Hops"]/plant</xpath>
+		<value>
+			<harvestAfterGrowth>0.15</harvestAfterGrowth>
+			<lifespanDaysPerGrowDays>6</lifespanDaysPerGrowDays>
+		</value>
+	</Operation>
+	
+	
+
+</Patch>

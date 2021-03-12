@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+ <ThingDef ParentName="BushBase">
+    <defName>Tox_Clivia</defName>
+    <label>clivia</label>
+    <description>An unusual plant with tall, pretty flowers. Some call it the 'bush lily'.</description>
+    <statBases>
+      <Beauty>20</Beauty>
+    </statBases>
+    <graphicData>
+      <texPath>Plants/Clivia</texPath>
+      <drawSize>1.1</drawSize>
+      <shadowData>
+        <volume>(0.3, 0.2, 0.15)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+    </graphicData>
+    <plant>
+      <wildClusterRadius>3</wildClusterRadius>
+      <wildClusterWeight>4</wildClusterWeight>
+	<wildBiomes>
+		<TemperateSwamp>0.03</TemperateSwamp>
+		<TropicalRainforest>0.7</TropicalRainforest>
+		<TropicalSwamp>0.8</TropicalSwamp>
+	</wildBiomes>
+	<sowTags>
+		<li>Ground</li>
+		<li>Decorative</li>
+	</sowTags>
+    </plant>
+  </ThingDef>
+	
+
+  
+</Defs>

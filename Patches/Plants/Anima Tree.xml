@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Royalty</li>
+        </mods>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Plant_TreeAnima"]/graphicData/texPath</xpath>
+    <value>
+        <texPath>Plants/TreeAnima</texPath>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Plant_TreeAnima"]/graphicData</xpath>
+    <value>
+        <drawSize>6</drawSize>
+    </value>
+  </Operation>
+
+
+</Patch>

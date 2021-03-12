@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+<ThingDef ParentName="PlantBase">
+    <defName>Tox_Brambles</defName>
+    <label>brambles</label>
+    <description>Tangled, thorny, woody shoots covered with leaves. Brambles grow in clusters, and slow down anyone moving over them.</description>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Nutrition>0.2</Nutrition>
+    </statBases>
+    <pathCost>14</pathCost>
+    <graphicData>
+      <texPath>Plants/Brambles/Mature</texPath>
+      <drawSize>1.7</drawSize>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <ingestible />
+    <plant>
+      <fertilitySensitivity>0.7</fertilitySensitivity>
+      <growDays>3</growDays>
+      <harvestWork>60</harvestWork>
+      <maxMeshCount>4</maxMeshCount>
+      <leaflessGraphicPath>Plants/Brambles/Leafless</leaflessGraphicPath>
+      <visualSizeRange>0.7~0.85</visualSizeRange>
+      <topWindExposure>0.15</topWindExposure>
+      <wildClusterRadius>4</wildClusterRadius>
+      <wildClusterWeight>200</wildClusterWeight>
+      <wildOrder>1</wildOrder>
+      <wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+	  <wildBiomes>
+	   <BorealForest>2</BorealForest>
+	   <ColdBog>1</ColdBog>
+	   <Tundra>2</Tundra>
+	   <TemperateForest>0.2</TemperateForest>
+	   <TemperateSwamp>0.4</TemperateSwamp>
+	   <TropicalRainforest>.01</TropicalRainforest>
+	   <TropicalSwamp>0.01</TropicalSwamp>
+	</wildBiomes>
+	<sowTags>
+		<li>Ground</li>
+	</sowTags>
+    </plant>
+  </ThingDef>
+  
+</Defs>

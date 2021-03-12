@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Core</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+
+                <!-- ================ Biome Boreal Forest ================ -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/BiomeDef[defName = "BorealForest"]/plantDensity</xpath>
+                    <value>
+                        <plantDensity>5.36</plantDensity>
+                    </value>
+                </li>
+
+<li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="BorealForest"]/animalDensity</xpath>
+        <value>
+          <animalDensity>8.0</animalDensity>
+        </value>
+      </li>
+
+<li Class="PatchOperationReplace">
+        <xpath>/Defs/BiomeDef[defName="BorealForest"]/terrainPatchMakers</xpath>
+        <value>
+          <terrainPatchMakers>
+            <li>
+              <perlinFrequency>0.010</perlinFrequency>
+              <thresholds>
+                <li>
+                  <terrain>MossyTerrain</terrain>
+                  <min>0.0</min>
+                  <max>0.52</max>
+                </li>
+                <li>
+                  <terrain>Marsh</terrain>
+                  <min>0.52</min>
+                  <max>0.76</max>
+                </li>
+                <li>
+                  <terrain>WaterShallow</terrain>
+                  <min>0.76</min>
+                  <max>0.98</max>
+                </li>
+                <li>
+                  <terrain>WaterDeep</terrain>
+                  <min>0.98</min>
+                  <max>999</max>
+                </li>
+              </thresholds>
+            </li>
+          </terrainPatchMakers>
+        </value>
+      </li>
+
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/BiomeDef[defName = "BorealForest"]/wildPlants</xpath>
+		<value>
+		    <wildPlants>
+			<Plant_Berry>0.4</Plant_Berry>
+			<Plant_Brambles>2.0</Plant_Brambles>
+			<Plant_Bush>3.0</Plant_Bush>
+			<Plant_Dandelion>0.3</Plant_Dandelion>
+			<Plant_Grass>10.0</Plant_Grass>
+			<Plant_HealrootWild>0.2</Plant_HealrootWild>
+			<Plant_Moss>4.0</Plant_Moss>
+			<Plant_Psychoid>0.03</Plant_Psychoid>
+			<Plant_TallGrass>10.0</Plant_TallGrass>
+			<Plant_TreeBirch>7.5</Plant_TreeBirch>
+          		<Plant_TreeCypress>0.05</Plant_TreeCypress>
+			<Plant_TreeMaple>0.04</Plant_TreeMaple>
+			<Plant_TreeOak>0.2</Plant_TreeOak>
+			<Plant_TreePine>10.0</Plant_TreePine>
+			<Plant_TreePoplar>7.2</Plant_TreePoplar>
+          		<Plant_TreeWillow>0.03</Plant_TreeWillow>
+	   		<Tox_AlliumGiganteum>0.1</Tox_AlliumGiganteum> 
+	   		<Tox_Amastani>0.09</Tox_Amastani> 
+	   		<Tox_Bearberry>0.25</Tox_Bearberry>
+	   		<Tox_Buttercup>0.25</Tox_Buttercup>
+	   		<Tox_Camellia>0.3</Tox_Camellia>
+	   		<Tox_Clover>3</Tox_Clover> 
+			<Tox_Daisies>0.1</Tox_Daisies>
+	   		<Tox_Dagim>0.07</Tox_Dagim> 
+	   		<Tox_Daritora>0.09</Tox_Daritora> 
+	   		<Tox_Delphinium>0.15</Tox_Delphinium>  
+	   		<Tox_Mushroom>0.05</Tox_Mushroom> 
+	   		<Tox_Vashna>0.001</Tox_Vashna>
+			<Tox_Wildberries>0.3</Tox_Wildberries>
+			<Tox_WildDreamleaf>0.09</Tox_WildDreamleaf>
+			<Tox_WildHazeleaf>0.095</Tox_WildHazeleaf>
+        		<Tox_WildSmokeleaf>0.095</Tox_WildSmokeleaf>
+		    </wildPlants>
+		</value>
+	       </li>
+
+
+
+            </operations>
+        </match>
+    </Operation>
+</Patch>

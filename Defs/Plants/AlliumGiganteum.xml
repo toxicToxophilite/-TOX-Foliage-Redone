@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="PlantBase">
+    <defName>Tox_AlliumGiganteum</defName>
+    <label>allium giganteum</label>
+    <description>A species of cultivated onion grown for its beauty rather than for food, the Allium Giganteum, also known as the Giant Onion, is the tallest cultivated species of Allium.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>12</Beauty>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Plants/AlliumGiganteum</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+		<selectable>true</selectable>
+		<pathCost>10</pathCost>
+    <ingestible>
+      <foodType>Plant</foodType>
+      <preferability>NeverForNutrition</preferability>
+    </ingestible>
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <sowWork>600</sowWork>
+      <sowTags>
+        <li>Decorative</li>
+        <li>Ground</li>
+      </sowTags>
+      <growMinGlow>0.3</growMinGlow>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>1.5</growDays>
+      <lifespanDaysPerGrowDays>7</lifespanDaysPerGrowDays>
+      <fertilitySensitivity>1.0</fertilitySensitivity>
+      <visualSizeRange>0.1~1.5</visualSizeRange>
+      <purpose>Beauty</purpose>
+    </plant>
+  </ThingDef>
+
+
+</Defs>

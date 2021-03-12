@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="BushBase">
+    <defName>Tox_AlocasiaPot</defName>
+    <label>alocasia</label>
+    <description>A tropical plant. Its extremely broad leaves are a commonly-recognized signifier of tropical forests. It is also a beautiful cultivated plant, but it can be quite finicky.</description>
+    <statBases>
+      <MaxHitPoints>165</MaxHitPoints>
+      <Beauty>10</Beauty>
+    </statBases>
+    <graphicData>
+      <texPath>Plants/Alocasia/Mature</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.55, 0.17, 0.15)</volume>
+        <offset>(0,0,-0.2)</offset>
+      </shadowData>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <selectable>true</selectable>
+    <uiIconScale>0.5</uiIconScale>
+    <plant>
+      <visualSizeRange>0.3~0.5</visualSizeRange>
+      <leaflessGraphicPath>Plants/Alocasia/Leafless</leaflessGraphicPath>
+      <sowWork>200</sowWork>
+	<sowTags>
+	    <li>Decorative</li>
+	</sowTags>
+      <growMinGlow>0.3</growMinGlow>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>2.8</growDays>
+      <lifespanDaysPerGrowDays>8</lifespanDaysPerGrowDays>
+    </plant>
+  </ThingDef>
+
+</Defs>

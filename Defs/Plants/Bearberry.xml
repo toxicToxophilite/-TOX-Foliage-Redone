@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+<ThingDef ParentName="BushBase">
+		<defName>Tox_Bearberry</defName>
+		<label>bearberry bush</label>
+		<description>Named for being a favorite snack of bears, bearberry bushes are cold-climate evergreen low-lying shrubs that produce tart red berries. In addition to being a nice source of food during rough autumns, the leaves are also used for herbal medicine.</description>
+		<graphicData>
+			<texPath>Plants/Bearberry/Mature</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.15, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+		</graphicData>
+		<selectable>true</selectable>
+		<neverMultiSelect>False</neverMultiSelect>
+		<pathCost>10</pathCost>
+		<statBases>
+			<Beauty>5</Beauty>
+			<Nutrition>1.25</Nutrition>
+		</statBases>
+		<ingestible />
+		<plant>
+			<dieIfLeafless>false</dieIfLeafless>
+			<growDays>25</growDays>
+			<visualSizeRange>0.8~2.0</visualSizeRange>
+			<sowMinSkill>6</sowMinSkill>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<fertilityMin>0.7</fertilityMin>
+			<topWindExposure>0.05</topWindExposure>
+			<mustBeWildToSow>true</mustBeWildToSow>
+			<immatureGraphicPath>Plants/Bearberry/Immature</immatureGraphicPath>
+			<leaflessGraphicPath>Plants/Bearberry/Leafless</leaflessGraphicPath>
+			<harvestWork>800</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestYield>50</harvestYield>
+			<harvestedThingDef>RawBerries</harvestedThingDef>
+			<harvestFailable>true</harvestFailable>
+			<harvestAfterGrowth>0.20</harvestAfterGrowth>
+                        <maxMeshCount>4</maxMeshCount>
+		</plant>
+	</ThingDef>
+  
+</Defs>

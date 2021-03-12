@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "PoisonPlantTreeCecropia"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plant/PoisonTreeCecropia</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.18, 0.3, 0.15)</volume>
+			</shadowData>
+		</graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "PoisonPlantTreeCecropia"]/statBases</xpath>
+	  <value>
+	    <statBases>
+      <Beauty>10</Beauty>
+      <Nutrition>1.2</Nutrition>
+    	    </statBases>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "PoisonPlantTreeCecropia"]/plant</xpath>
+	  <value>
+	    <plant>
+      		<growDays>14</growDays>
+      		<harvestWork>600</harvestWork>
+      		<harvestYield>18</harvestYield>
+     		<wildClusterRadius>10</wildClusterRadius>
+      		<wildClusterWeight>11</wildClusterWeight>
+      		<visualSizeRange>3.5~5</visualSizeRange>
+      		<blockAdjacentSow>false</blockAdjacentSow>
+    </plant>
+	  </value>
+	</Operation>
+
+
+</Patch>

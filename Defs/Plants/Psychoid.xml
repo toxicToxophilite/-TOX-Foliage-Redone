@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+<ThingDef ParentName="PlantBase">
+    <defName>Tox_Psychoid</defName>
+    <label>psychoid plant</label>
+    <description>A leafy plant which generates the chemical compound psychite. Originally evolved as a defense mechanism to ward off plant-eating animals by overstimulating and sickening them, the psychite drug can be extracted and refined into various forms for recreational use. It is addictive.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.15</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Plants/Psychoid/Mature</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+      <immatureGraphicPath>Plants/Psychoid/Immature</immatureGraphicPath>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <maxMeshCount>4</maxMeshCount>
+		<wildClusterRadius>4</wildClusterRadius>
+		<wildClusterWeight>60</wildClusterWeight>
+		<growDays>9.00</growDays>
+		<dieIfLeafless>true</dieIfLeafless>
+		<harvestTag>Standard</harvestTag>
+		<harvestedThingDef>Tox_PsychoidLeaves</harvestedThingDef>
+		<harvestYield>8</harvestYield>
+		<sowMinSkill>6</sowMinSkill>
+		<topWindExposure>0.1</topWindExposure>
+		<visualSizeRange>0.3~0.8</visualSizeRange>
+		<wildOrder>1</wildOrder>
+	  <wildBiomes>
+	   <TemperateForest>0.03</TemperateForest>
+	   <TropicalRainforest>0.03</TropicalRainforest>    			   
+	   <BorealForest>0.03</BorealForest>       			   
+	   <TemperateSwamp>0.03</TemperateSwamp>    			   
+	   <TropicalSwamp>0.03</TropicalSwamp>    			   
+	   <ColdBog>0.03</ColdBog>    			   
+	   <Tundra>0.03</Tundra>    			   
+	   <IceSheet>0.03</IceSheet>    			   
+	   <AridShrubland>0.03</AridShrubland>    			   
+	   <Desert>0.03</Desert>    			   
+	   <ExtremeDesert>0.03</ExtremeDesert>
+	</wildBiomes>
+    </plant>
+  </ThingDef>
+	
+
+  
+</Defs>

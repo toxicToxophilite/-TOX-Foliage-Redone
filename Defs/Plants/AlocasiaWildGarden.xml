@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="BushBase">
+    <defName>Tox_Alocasia</defName>
+    <label>alocasia</label>
+    <description>A tropical plant. Its extremely broad leaves are a commonly-recognized signifier of tropical forests. It is also a beautiful cultivated plant, but it can be quite finicky.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>10</Beauty>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Plants/Alocasia/Mature</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.55, 0.17, 0.15)</volume>
+        <offset>(0,0,-0.2)</offset>
+      </shadowData>
+    </graphicData>
+    <uiIconScale>0.5</uiIconScale>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <visualSizeRange>0.3~0.5</visualSizeRange>
+      <leaflessGraphicPath>Plants/Alocasia/Leafless</leaflessGraphicPath>
+      <immatureGraphicPath>Plants/Alocasia/Immature</immatureGraphicPath>
+      <wildClusterRadius>4</wildClusterRadius>
+      <wildClusterWeight>7.5</wildClusterWeight>
+	<wildBiomes>
+		<TemperateForest>0.05</TemperateForest>
+		<TemperateSwamp>0.03</TemperateSwamp>
+		<TropicalRainforest>0.7</TropicalRainforest>
+		<TropicalSwamp>0.5</TropicalSwamp>
+		<Desert>0.001</Desert>
+	</wildBiomes>
+    </plant>
+  </ThingDef>
+
+</Defs>

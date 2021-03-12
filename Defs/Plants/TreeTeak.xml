@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+<ThingDef ParentName="DeciduousTreeBase">
+    <defName>Tox_TreeTeak</defName>
+    <label>teak tree</label>
+    <description>An exceptionally strong hardwood tree that grows in warm climates. Because teak wood is so durable and water-resistant, it was used to form the keel of wooden sailing ships in ancient times.</description>
+    <graphicData>
+      <texPath>Plants/TreeTeak</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Beauty>2</Beauty>
+    </statBases>
+    <plant>
+      <growDays>32.5</growDays>
+      <harvestWork>1800</harvestWork>
+      <harvestYield>60</harvestYield>
+      <visualSizeRange>1.3~2.4</visualSizeRange>
+      <blockAdjacentSow>false</blockAdjacentSow>
+	<wildBiomes>
+		<TemperateForest>0.2</TemperateForest>
+		<TemperateSwamp>0.03</TemperateSwamp>
+		<TropicalRainforest>0.2</TropicalRainforest>
+		<TropicalSwamp>0.8</TropicalSwamp>
+		<AridShrubland>0.03</AridShrubland>
+	</wildBiomes>
+    </plant>
+  </ThingDef>
+  
+</Defs>

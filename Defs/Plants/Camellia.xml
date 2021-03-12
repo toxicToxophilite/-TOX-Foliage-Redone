@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BushBase">
+    <defName>Tox_Camellia</defName>
+    <label>camellia bush</label>
+    <description>Camellias are beautiful floral bushes that have been bred to thrive even in winter conditions.</description>
+    <graphicData>
+      <texPath>Plants/Camellia/Mature</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.15, 0.3, 0.1)</volume>
+      </shadowData>
+        <shaderParameters>
+        <_FallColorSource>(0.360, 0.388, 0.180)</_FallColorSource>
+        <_FallColorDestination>/Other/TreeFallGradient</_FallColorDestination>
+        <_FallTransitionRange>(0.02, 0.10)</_FallTransitionRange>
+        <_FallBehaviorEnabled>1</_FallBehaviorEnabled>
+      </shaderParameters>
+   </graphicData>
+    <statBases>
+      <Beauty>10</Beauty>
+      <Nutrition>1</Nutrition>
+    </statBases>
+		<selectable>true</selectable>
+		<pathCost>10</pathCost>
+<plant>
+      <leaflessGraphicPath>Plants/Camellia/Immature</leaflessGraphicPath>
+      <immatureGraphicPath>Plants/Camellia/Immature</immatureGraphicPath>
+      <growDays>20</growDays>
+      <harvestWork>700</harvestWork>
+      <harvestYield>30</harvestYield>
+       <sowResearchPrerequisites>
+        <li>TreeSowing</li>
+      </sowResearchPrerequisites>
+   </plant>
+  </ThingDef>
+
+
+
+
+</Defs>

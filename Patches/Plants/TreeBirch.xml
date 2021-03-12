@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_TreeBirch"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plants/TreeBirch/Mature</texPath>
+      		  <graphicClass>Graphic_Random</graphicClass>
+      		  <shadowData>
+        		<volume>(0.2, 0.35, 0.13)</volume>
+        		<offset>(-0.03,0,-0.44)</offset>
+      		  </shadowData>
+		</graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_TreeBirch"]/statBases</xpath>
+	  <value>
+	    <statBases>
+      <Beauty>2</Beauty>
+    	    </statBases>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_TreeBirch"]/plant</xpath>
+	  <value>
+	    <plant>
+      		<leaflessGraphicPath>Plants/TreeBirch/Leafless</leaflessGraphicPath>
+      		<growDays>30</growDays>
+      		<harvestWork>1400</harvestWork>
+      		<harvestYield>46</harvestYield>
+      		<wildClusterWeight>35</wildClusterWeight>
+      		<blockAdjacentSow>false</blockAdjacentSow>
+      		<visualSizeRange>3.5~4</visualSizeRange>
+    	    </plant>
+	  </value>
+	</Operation>
+
+
+</Patch>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="DeciduousTreeBase">
+    <defName>Tox_Vashna</defName>
+    <label>Vashna tree</label>
+    <description>A drooping tree with oddly flexible, durable wood.</description>
+    <graphicData>
+      <texPath>Plants/TreeVashna/Mature</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+	   <shadowData>
+        <volume>(0.15, 0.3, 0.1)</volume>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <Beauty>8</Beauty>
+    </statBases>   
+    <passability>PassThroughOnly</passability>
+    <pathCost>130</pathCost>
+    <blockWind>true</blockWind>
+    <ingestible>
+      <foodType>Tree</foodType>
+      <preferability>RawBad</preferability>      
+    </ingestible>
+    <plant>
+			<growDays>25.50</growDays>			
+			<leaflessGraphicPath>Plants/TreeVashna/Leafless</leaflessGraphicPath>
+			<fertilityMin>0.3</fertilityMin>
+			<fertilitySensitivity>0.5</fertilitySensitivity>			
+			<soundHarvesting>Harvest_Tree</soundHarvesting>
+			<soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
+			<sowWork>2000</sowWork>
+			<harvestWork>1000</harvestWork>
+			<harvestedThingDef>WoodLog</harvestedThingDef>
+			<harvestYield>100</harvestYield>
+			<harvestTag>Wood</harvestTag>
+			<harvestMinGrowth>0.70</harvestMinGrowth>
+			<harvestFailable>false</harvestFailable>
+			<blockAdjacentSow>false</blockAdjacentSow>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<visualSizeRange>5~6</visualSizeRange>
+			<topWindExposure>0.25</topWindExposure>
+      <wildClusterWeight>20</wildClusterWeight>
+			<wildOrder>3</wildOrder>
+      <wildClusterRadius>8</wildClusterRadius>
+    </plant>
+  </ThingDef>
+
+</Defs>

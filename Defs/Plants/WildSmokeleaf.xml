@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="PlantBase">
+    <defName>Tox_WildSmokeleaf</defName>
+    <label>Wild Smokeleaf</label>
+    <description>A leafy crop grown for the psychological effects of chemicals in its leaves. Smokeleaf leaves can be prepared into joints at the crafting spot.</description>
+    <statBases>
+      <MaxHitPoints>175</MaxHitPoints>
+      <Nutrition>0.15</Nutrition>
+      <Beauty>2</Beauty>
+      <Nutrition>0.00000001</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Plants/Smokeleaf/Mature</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.2, 0.6, 0.2)</volume>
+      </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>130</pathCost>
+    <ingestible />
+    <plant>
+      <leaflessGraphicPath>Plants/Smokeleaf/Leafless</leaflessGraphicPath>
+      <immatureGraphicPath>Plants/Smokeleaf/Leafless</immatureGraphicPath>
+      <maxMeshCount>4</maxMeshCount>
+      <growDays>12</growDays>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SmokeleafLeaves</harvestedThingDef>
+      <harvestYield>4</harvestYield>
+      <harvestWork>1000</harvestWork>
+      <topWindExposure>0.12</topWindExposure>
+      <visualSizeRange>0.35~1.3</visualSizeRange>
+      <wildOrder>2</wildOrder>
+    </plant>
+  </ThingDef>
+  
+</Defs>

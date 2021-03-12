@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="PlantBase">
+    <defName>Tox_Clover</defName>
+    <label>Clover</label>
+    <description>Clover are an extremely common temperate plant related to the pea. Although they are sometimes planted decoratively for their leaf shape and cute pink flowers, they are more often used to feed animals, as herbivores find the plant quite nutritious and tasty.</description>
+    <statBases>
+      <MaxHitPoints>35</MaxHitPoints>
+      <Beauty>5</Beauty>
+	  <Nutrition>0.30</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Plants/Clover</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <hideAtSnowDepth>0.3</hideAtSnowDepth> 
+		<selectable>true</selectable>
+		<pathCost>10</pathCost>   
+    <plant>
+			<fertilitySensitivity>0.0</fertilitySensitivity>
+			<growDays>2.6</growDays>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<fertilityMin>0.05</fertilityMin>
+			<maxMeshCount>9</maxMeshCount>
+			<visualSizeRange>0.3~0.4</visualSizeRange>
+      <topWindExposure>0.1</topWindExposure>
+      <wildOrder>1</wildOrder>
+    </plant>
+  </ThingDef>
+
+
+</Defs>

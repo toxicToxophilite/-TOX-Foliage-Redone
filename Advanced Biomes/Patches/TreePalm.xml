@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "PoisonTreePalm]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plant/PoisonTreePalm</texPath>
+      		  <graphicClass>Graphic_Random</graphicClass>
+      		  <shadowData>
+        		<volume>(0.18, 0.3, 0.15)</volume>
+            		<offset>(0.03,0,-0.44)</offset>
+      		  </shadowData>
+		</graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "PoisonTreePalm"]/statBases</xpath>
+	  <value>
+	    <statBases>
+      		<Beauty>5</Beauty>
+      		<Nutrition>1.2</Nutrition>
+    	    </statBases>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "PoisonTreePalm"]/plant</xpath>
+	  <value>
+	    <plant>
+      		<blockAdjacentSow>false</blockAdjacentSow>
+      		<visualSizeRange>3.5~5</visualSizeRange>
+    	    </plant>
+	  </value>
+	</Operation>
+
+
+</Patch>

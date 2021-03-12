@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_ShrubLow"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plants/ShrubLow</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_ShrubLow"]/statBases</xpath>
+	  <value>
+	    <statBases>
+      		<MaxHitPoints>90</MaxHitPoints>
+      		<Nutrition>0.2</Nutrition>
+      		<Beauty>3</Beauty>
+    	    </statBases>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_ShrubLow"]/plant</xpath>
+	  <value>
+	    <plant>
+      <fertilitySensitivity>0.7</fertilitySensitivity>
+      <growDays>3</growDays>
+      <harvestWork>60</harvestWork>
+      <maxMeshCount>4</maxMeshCount>
+      <visualSizeRange>0.85~1.05</visualSizeRange>
+      <topWindExposure>0.2</topWindExposure>
+      <wildClusterRadius>3</wildClusterRadius>
+      <wildClusterWeight>40</wildClusterWeight>
+      <wildOrder>1</wildOrder>
+      <wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+    </plant>
+	  </value>
+	</Operation>
+
+
+</Patch>

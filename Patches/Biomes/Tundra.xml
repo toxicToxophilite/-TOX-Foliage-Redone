@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Core</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+
+                <!-- ================ Biome Tundra ================ -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/BiomeDef[defName = "Tundra"]/plantDensity</xpath>
+                    <value>
+                        <plantDensity>5.19</plantDensity>
+                    </value>
+                </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="Tundra"]/animalDensity</xpath>
+        <value>
+          <animalDensity>3.1</animalDensity>
+        </value>
+      </li>
+
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/BiomeDef[defName = "Tundra"]/wildPlants</xpath>
+		<value>
+		    <wildPlants>
+			<Plant_Astragalus>0.1</Plant_Astragalus>
+			<Plant_Berry>1.5</Plant_Berry>
+	   		<Plant_Brambles>4.0</Plant_Brambles>
+			<Plant_Bush>4.5</Plant_Bush>
+			<Plant_Dandelion>0.5</Plant_Dandelion>
+			<Plant_Grass>20.0</Plant_Grass>
+			<Plant_HealrootWild>0.2</Plant_HealrootWild>
+			<Plant_Moss>6.5</Plant_Moss>
+			<Plant_Psychoid>0.03</Plant_Psychoid>
+                        <Plant_TallGrass>3.5</Plant_TallGrass>
+      			<Plant_TreeBirch>0.9</Plant_TreeBirch>
+          		<Plant_TreeCypress>0.001</Plant_TreeCypress>
+			<Plant_TreeMaple>0.003</Plant_TreeMaple>
+      			<Plant_TreePine>5.0</Plant_TreePine>
+          		<Plant_TreePoplar>0.002</Plant_TreePoplar>
+          		<Plant_TreeWillow>0.001</Plant_TreeWillow>
+	   		<Tox_Bearberry>0.25</Tox_Bearberry>
+	   		<Tox_Camellia>0.2</Tox_Camellia>
+			<Tox_Daisies>0.01</Tox_Daisies>
+	   		<Tox_Dagim>0.07</Tox_Dagim> 
+	   		<Tox_Vashna>0.001</Tox_Vashna>
+			<Tox_WildDreamleaf>0.065</Tox_WildDreamleaf>
+			<Tox_WildHazeleaf>0.085</Tox_WildHazeleaf>
+        		<Tox_WildSmokeleaf>0.075</Tox_WildSmokeleaf>
+		    </wildPlants>
+		</value>
+	       </li>
+
+
+            </operations>
+        </match>
+    </Operation>
+</Patch>

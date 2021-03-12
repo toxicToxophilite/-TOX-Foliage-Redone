@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+<ThingDef ParentName="PlantBase">
+	<defName>Tox_Mushroom</defName>
+	<label>Whitecap Mushroom</label>
+	<description>This common wild mushroom is quite robust and works well as a meat substitude.</description>
+    <graphicData>
+      <texPath>Plants/Mushroom</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.00000001</Nutrition>
+    </statBases>
+		<selectable>true</selectable>
+		<pathCost>10</pathCost>
+    <plant>
+      <harvestedThingDef>RawFungus</harvestedThingDef>
+	<harvestYield>5</harvestYield>
+      <sowMinSkill>5</sowMinSkill>
+      <topWindExposure>0.1</topWindExposure>
+      <maxMeshCount>9</maxMeshCount>
+      <visualSizeRange>0.3~0.5</visualSizeRange>
+      <growDays>4.75</growDays>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+      <sowTags>
+        <li>Hydroponic</li>
+        <li>Ground</li>
+      </sowTags>
+      </plant>
+</ThingDef>
+  
+</Defs>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+<ThingDef ParentName="DeciduousTreeBase">
+    <defName>Tox_TreePoplar</defName>
+    <label>poplar tree</label>
+    <description>A softwood tree that grows very fast. Unfortunately, its wood is weak and so it yields less useful material than hardwood trees.</description>
+    <graphicData>
+      <texPath>Plants/TreePoplar</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+      <shadowData>
+        <volume>(0.18, 0.3, 0.15)</volume>
+            <offset>(0.03,0,-0.44)</offset>
+      </shadowData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <Nutrition>1</Nutrition>
+    </statBases>
+    <ingestible />
+    <plant>
+      <growDays>15.05</growDays>
+      <harvestWork>800</harvestWork>
+      <harvestYield>27</harvestYield>
+      <wildClusterWeight>35</wildClusterWeight>
+      <blockAdjacentSow>false</blockAdjacentSow>
+	  <wildBiomes>
+	   <TemperateForest>1.25</TemperateForest>
+	   <TemperateSwamp>1</TemperateSwamp>			   
+	   <BorealForest>0.3</BorealForest>    			   
+	   <ColdBog>0.15</ColdBog>
+           <AridShrubland>0.04</AridShrubland>
+           <Desert>0.05</Desert>
+	</wildBiomes>
+    </plant>
+  </ThingDef>
+  
+</Defs>

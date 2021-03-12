@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Rafflesia"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plants/Rafflesia</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+        			<volume>(0.55, 0.2, 0.2)</volume>
+        			<offset>(0,0,-0.1)</offset>
+			</shadowData>
+      			<drawSize>1.7</drawSize>
+		</graphicData>
+	  </value>
+	</Operation>
+
+
+
+
+</Patch>

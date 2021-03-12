@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "PoisonBush"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plant/PoisonBush/Mature</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "PoisonBush"]/plant</xpath>
+	  <value>
+	    <plant>
+      <immatureGraphicPath>Plant/PoisonBush/Immature</immatureGraphicPath>
+    	    </plant>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "PoisonBush"]/plant/leaflessGraphicPath</xpath>
+	  <value>
+      <leaflessGraphicPath>Plant/PoisonBush/Leafless</leaflessGraphicPath>
+	  </value>
+	</Operation>
+
+
+</Patch>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_TreeBamboo"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plants/TreeBamboo/Mature</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.38, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.47)</offset>
+			</shadowData>
+		</graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_TreeBamboo"]/statBases</xpath>
+	  <value>
+	    <statBases>
+      <Beauty>10</Beauty>
+      <Nutrition>1</Nutrition>
+    	    </statBases>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_TreeBamboo"]/plant</xpath>
+	  <value>
+	    <plant>
+      <harvestedThingDef>Tox_BambooLog</harvestedThingDef>
+		<harvestTag>Wood</harvestTag>
+		<harvestYield>14</harvestYield>
+		<sowMinSkill>4</sowMinSkill>
+		<growDays>10</growDays>
+		<fertilitySensitivity>0.75</fertilitySensitivity>
+		<wildClusterRadius>5</wildClusterRadius>
+		<wildClusterWeight>15</wildClusterWeight>
+		<immatureGraphicPath>Plants/TreeBamboo/Immature</immatureGraphicPath>
+		<wildOrder>2</wildOrder>
+      <maxMeshCount>4</maxMeshCount>
+      <blockAdjacentSow>false</blockAdjacentSow>
+      <visualSizeRange>2.5~3.5</visualSizeRange>
+    </plant>
+	  </value>
+	</Operation>
+
+
+</Patch>

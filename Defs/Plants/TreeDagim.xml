@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+<ThingDef ParentName="DeciduousTreeBase">
+    <defName>Tox_Dagim</defName>
+    <label>Dagim Tree</label>
+    <description>Dagim trees are not trees at all, but instead a massive species of fungi. Because they cannot support the weight of their own caps, they tend to bend downward. Only the base of the "tree" has strong enough fibers to be used as wood, resulting in a disappointingly small yeild.</description>
+    <graphicData>
+      <texPath>Plants/TreeDagim</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.15, 0.3, 0.1)</volume>
+      </shadowData>
+    </graphicData>
+	<comps>
+      <li Class="CompProperties_Glower">
+      <glowRadius>3</glowRadius>
+      <glowColor>(102,30,64,0)</glowColor>
+      </li>
+    </comps>
+    <statBases>
+      <Beauty>30</Beauty>
+      <Nutrition>1</Nutrition>
+    </statBases>
+		<selectable>true</selectable>
+		<pathCost>130</pathCost>
+   <plant>
+      <growDays>18</growDays>
+      <harvestWork>700</harvestWork>
+      <harvestYield>20</harvestYield>
+	<visualSizeRange>2~3</visualSizeRange>
+      <blockAdjacentSow>false</blockAdjacentSow>
+       <sowTags>
+        <li>Ground</li>
+      </sowTags>
+  </plant>
+  </ThingDef>
+  
+</Defs>

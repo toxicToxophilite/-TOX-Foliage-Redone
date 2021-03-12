@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+<ThingDef ParentName="PlantBase">
+    <defName>Tox_Wildberries</defName>
+    <label>Wildberries</label>
+    <description>Three different edible berry plants that grow within a symbiotic relationship with each other. If even one plant were missing from the tangled root system, the other two would die. The berries individually taste strangely, but the flavor of all three combined is exquisite.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.2</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Plants/Wildberries/Mature</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+      <growDays>4.6</growDays>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawBerries</harvestedThingDef>
+      <harvestYield>18</harvestYield>
+      <sowMinSkill>3</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.3</topWindExposure>
+      <immatureGraphicPath>Plants/Wildberries/Immature</immatureGraphicPath>
+      <maxMeshCount>9</maxMeshCount>
+      <visualSizeRange>0.7~0.9</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <wildClusterRadius>4</wildClusterRadius>
+      <wildClusterWeight>8</wildClusterWeight>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+  
+</Defs>

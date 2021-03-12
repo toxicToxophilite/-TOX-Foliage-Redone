@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="PlantBase">
+    <defName>Tox_WildHazeleaf</defName>
+    <label>Wild Hazeleaf</label>
+    <description>A leafy crop grown for the psychological effects of chemicals in its leaves. Hazeleaf leaves can be prepared into joints at the crafting spot.</description>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Nutrition>0.25</Nutrition>
+      <Beauty>3</Beauty>
+      <Nutrition>0.00000001</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Plants/Hazeleaf/Mature</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.2, 0.6, 0.2)</volume>
+      </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>100</pathCost>
+    <ingestible />
+    <plant>
+      <leaflessGraphicPath>Plants/Hazeleaf/Leafless</leaflessGraphicPath>
+      <immatureGraphicPath>Plants/Hazeleaf/Leafless</immatureGraphicPath>
+      <maxMeshCount>4</maxMeshCount>
+      <growDays>16</growDays>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SmokeleafLeaves</harvestedThingDef>
+      <harvestYield>3</harvestYield>
+      <harvestWork>1000</harvestWork>
+      <visualSizeRange>0.35~1.4</visualSizeRange>
+      <topWindExposure>0.18</topWindExposure>
+      <wildOrder>2</wildOrder>
+    </plant>
+  </ThingDef>
+  
+</Defs>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Core</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+
+                <!-- ================ Biome Tropical Rainforest ================ -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/plantDensity</xpath>
+                    <value>
+                        <plantDensity>5.9</plantDensity>
+                    </value>
+                </li>
+
+<li Class="PatchOperationReplace">
+        <!-- Changes to Animal Density for Tropical Rainforest -->
+        <xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/animalDensity</xpath>
+        <value>
+          <animalDensity>6.0</animalDensity>
+        </value>
+      </li>
+
+<li Class="PatchOperationReplace">
+        <!-- Changes to weather for TropicalRainforest Biome -->
+        <xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/baseWeatherCommonalities</xpath>
+        <value>
+          <baseWeatherCommonalities>
+            <Clear>2</Clear>
+            <Fog>5</Fog>
+            <Rain>10</Rain>
+            <DryThunderstorm>1.5</DryThunderstorm>
+            <RainyThunderstorm>5.5</RainyThunderstorm>
+            <FoggyRain>7</FoggyRain>
+            <SnowGentle>1</SnowGentle>
+          </baseWeatherCommonalities>
+        </value>
+      </li>
+
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/wildPlants</xpath>
+		<value>
+		    <wildPlants>
+			<Plant_Alocasia>0.8</Plant_Alocasia>
+			<Plant_Berry>0.10</Plant_Berry>
+	   		<Plant_Brambles>0.01</Plant_Brambles>
+			<Plant_Bush>0.45</Plant_Bush>
+	   		<Plant_Chokevine>0.5</Plant_Chokevine>
+			<Plant_Clivia>0.7</Plant_Clivia>		
+      			<Plant_Grass>8.0</Plant_Grass>
+			<Plant_HealrootWild>0.3</Plant_HealrootWild>
+	   		<Plant_Psychoid>0.03</Plant_Psychoid>
+			<Plant_Rafflesia>0.01</Plant_Rafflesia>
+			<Plant_ShrubLow>3.0</Plant_ShrubLow>
+      			<Plant_TallGrass>3.0</Plant_TallGrass>
+			<Plant_TreeBamboo>3.3</Plant_TreeBamboo>
+			<Plant_TreeCecropia>4.3</Plant_TreeCecropia>
+			<Plant_TreePalm>4.3</Plant_TreePalm>
+			<Plant_TreeTeak>3.2</Plant_TreeTeak>   
+	   		<Tox_AlliumGiganteum>0.1</Tox_AlliumGiganteum> 
+	   		<Tox_Amastani>0.05</Tox_Amastani> 
+	   		<Tox_Buttercup>0.25</Tox_Buttercup>
+			<Tox_Camellia>0.007</Tox_Camellia>
+	   		<Tox_Clover>2</Tox_Clover> 
+			<Tox_Daisies>0.012</Tox_Daisies>
+	   		<Tox_Delphinium>0.25</Tox_Delphinium>
+	   		<Tox_Daritora>0.05</Tox_Daritora>  
+	   		<Tox_Mushroom>0.05</Tox_Mushroom> 
+	   		<Tox_Vashna>0.001</Tox_Vashna>
+	   		<Tox_Wildberries>0.5</Tox_Wildberries>
+			<Tox_WildDreamleaf>0.045</Tox_WildDreamleaf>
+			<Tox_WildHazeleaf>0.02</Tox_WildHazeleaf>
+        		<Tox_WildSmokeleaf>0.025</Tox_WildSmokeleaf>
+		    </wildPlants>
+		</value>
+	       </li>
+
+            </operations>
+        </match>
+    </Operation>
+</Patch>

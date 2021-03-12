@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="PlantBase">
+    <defName>Tox_WildDreamleaf</defName>
+    <label>Wild Dreamleaf</label>
+    <description>A leafy crop grown for the psychological effects of chemicals in its leaves. Dreamleaf leaves can be prepared into joints at the crafting spot.</description>
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <Nutrition>0.25</Nutrition>
+      <Beauty>1</Beauty>
+      <Nutrition>0.00000001</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Plants/Dreamleaf/Mature</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.2, 0.6, 0.2)</volume>
+      </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>100</pathCost>
+    <ingestible />
+    <plant>
+      <leaflessGraphicPath>Plants/Dreamleaf/Leafless</leaflessGraphicPath>
+      <immatureGraphicPath>Plants/Dreamleaf/Leafless</immatureGraphicPath>
+      <maxMeshCount>4</maxMeshCount>
+      <growDays>13</growDays>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SmokeleafLeaves</harvestedThingDef>
+      <harvestYield>3</harvestYield>
+      <harvestWork>1000</harvestWork>
+      <topWindExposure>0.12</topWindExposure>
+      <visualSizeRange>0.35~1.35</visualSizeRange>
+      <wildOrder>2</wildOrder>
+    </plant>
+  </ThingDef>
+  
+</Defs>

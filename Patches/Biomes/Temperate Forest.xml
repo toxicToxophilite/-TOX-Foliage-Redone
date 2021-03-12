@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Core</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+
+                <!-- ================ Biome Temperate Forest ================ -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/BiomeDef[defName = "TemperateForest"]/plantDensity</xpath>
+                    <value>
+                        <plantDensity>5.65</plantDensity>
+                    </value>
+                </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="TemperateForest"]/animalDensity</xpath>
+        <value>
+          <animalDensity>9.7</animalDensity>
+        </value>
+      </li>
+
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/BiomeDef[defName = "TemperateForest"]/wildPlants</xpath>
+		<value>
+		    <wildPlants>
+			<Plant_Alocasia>0.005</Plant_Alocasia>
+			<Plant_Berry>0.1</Plant_Berry>
+			<Plant_Brambles>3.0</Plant_Brambles>
+			<Plant_Bush>5.6</Plant_Bush>
+			<Plant_Dandelion>0.5</Plant_Dandelion>
+			<Plant_Grass>7.0</Plant_Grass>
+			<Plant_HealrootWild>0.05</Plant_HealrootWild>
+      			<Plant_Moss>2.25</Plant_Moss>
+			<Plant_Psychoid>0.03</Plant_Psychoid>
+			<Plant_TallGrass>7.0</Plant_TallGrass>
+          		<Plant_TreeCypress>0.05</Plant_TreeCypress>
+          		<Plant_TreeMaple>0.04</Plant_TreeMaple>
+			<Plant_TreeOak>6.2</Plant_TreeOak>
+			<Plant_TreePine>0.8</Plant_TreePine>
+			<Plant_TreePoplar>7.5</Plant_TreePoplar>
+			<Plant_TreeTeak>0.2</Plant_TreeTeak>
+          		<Plant_TreeWillow>0.04</Plant_TreeWillow>
+	   		<Tox_AlliumGiganteum>0.1</Tox_AlliumGiganteum> 
+	   		<Tox_Amastani>0.09</Tox_Amastani> 
+	   		<Tox_Bearberry>0.15</Tox_Bearberry>
+	   		<Tox_Buttercup>0.25</Tox_Buttercup>
+	   		<Tox_Camellia>0.05</Tox_Camellia>
+	   		<Tox_Clover>4</Tox_Clover> 
+			<Tox_Daisies>0.013</Tox_Daisies>
+	   		<Tox_Dagim>0.07</Tox_Dagim> 
+	   		<Tox_Daritora>0.09</Tox_Daritora> 
+	   		<Tox_Delphinium>0.25</Tox_Delphinium> 
+	   		<Tox_Mushroom>0.05</Tox_Mushroom> 
+	   		<Tox_Vashna>0.001</Tox_Vashna>
+			<Tox_Wildberries>0.3</Tox_Wildberries>
+			<Tox_WildDreamleaf>0.05</Tox_WildDreamleaf>
+			<Tox_WildHazeleaf>0.045</Tox_WildHazeleaf>
+        		<Tox_WildSmokeleaf>0.035</Tox_WildSmokeleaf>
+		    </wildPlants>
+		</value>
+	       </li>
+
+
+
+            </operations>
+        </match>
+    </Operation>
+</Patch>

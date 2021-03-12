@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Brambles"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plants/Brambles/Mature</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+        			<volume>(0.55, 0.17, 0.15)</volume>
+        			<offset>(0,0,-0.2)</offset>
+			</shadowData>
+		</graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Brambles"]/plant</xpath>
+	  <value>
+	    <plant>
+      <fertilitySensitivity>0.7</fertilitySensitivity>
+      <growDays>3</growDays>
+      <harvestWork>60</harvestWork>
+      <maxMeshCount>4</maxMeshCount>
+      <leaflessGraphicPath>Plants/Brambles/Leafless</leaflessGraphicPath>
+      <visualSizeRange>0.7~0.85</visualSizeRange>
+      <topWindExposure>0.15</topWindExposure>
+      <wildClusterRadius>4</wildClusterRadius>
+      <wildClusterWeight>200</wildClusterWeight>
+      <wildOrder>1</wildOrder>
+      <wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+	<sowTags>
+		<li>Ground</li>
+	</sowTags>
+    </plant>
+	  </value>
+	</Operation>
+
+
+</Patch>

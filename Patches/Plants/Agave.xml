@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Agave"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plants/Agave/Mature</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.38, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.47)</offset>
+			</shadowData>
+		</graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Agave"]/statBases</xpath>
+	  <value>
+	    <statBases>
+      <Beauty>10</Beauty>
+      <Nutrition>.5</Nutrition>
+    	    </statBases>
+	  </value>
+	</Operation>
+
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Agave"]/plant/visualSizeRange</xpath>
+	  <value>
+      		<visualSizeRange>
+			2.5~2.9
+		</visualSizeRange>
+	  </value>
+	</Operation>
+
+
+</Patch>

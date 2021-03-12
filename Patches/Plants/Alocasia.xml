@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Alocasia"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plants/Alocasia/Mature</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+        			<volume>(0.55, 0.17, 0.15)</volume>
+        			<offset>(0,0,-0.2)</offset>
+			</shadowData>
+		</graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Alocasia"]/plant</xpath>
+	  <value>
+	    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <visualSizeRange>0.5~0.8</visualSizeRange>
+      <leaflessGraphicPath>Plants/Alocasia/Leafless</leaflessGraphicPath>
+      <wildClusterRadius>4</wildClusterRadius>
+      <wildClusterWeight>7.5</wildClusterWeight>
+      <topWindExposure>0.1</topWindExposure>
+    </plant>
+	  </value>
+	</Operation>
+
+
+</Patch>

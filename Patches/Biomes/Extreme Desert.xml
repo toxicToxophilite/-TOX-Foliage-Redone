@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Core</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+
+
+                <!-- ================ Biome Desert Extreme Desert ================ -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/BiomeDef[defName = "ExtremeDesert"]/plantDensity</xpath>
+                    <value>
+                        <plantDensity>0.008</plantDensity>
+                    </value>
+                </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="ExtremeDesert"]/animalDensity</xpath>
+        <value>
+          <animalDensity>0.12</animalDensity>
+        </value>
+      </li>
+
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/BiomeDef[defName = "ExtremeDesert"]/wildPlants</xpath>
+		<value>
+		    <wildPlants>
+			<Plant_Agave>0.25</Plant_Agave>
+           		<Plant_Dandelion>0.01</Plant_Dandelion>
+			<Plant_Grass>6</Plant_Grass>
+			<Plant_HealrootWild>0.16</Plant_HealrootWild>
+                        <Plant_PincushionCactus>1.2</Plant_PincushionCactus>    			   
+	   		<Plant_Psychoid>0.03</Plant_Psychoid>
+			<Plant_SaguaroCactus>1</Plant_SaguaroCactus>
+          		<Plant_TreeDrago>0.0005</Plant_TreeDrago>
+          		<Plant_TreePalm>0.0005</Plant_TreePalm>
+			<Tox_Daisies>0.01</Tox_Daisies>
+	   		<Tox_Vashna>0.001</Tox_Vashna>
+			<Tox_WildDreamleaf>0.015</Tox_WildDreamleaf>
+			<Tox_WildHazeleaf>0.035</Tox_WildHazeleaf>
+        		<Tox_WildSmokeleaf>0.013</Tox_WildSmokeleaf>
+		    </wildPlants>
+		</value>
+	       </li>
+
+
+            </operations>
+        </match>
+    </Operation>
+</Patch>

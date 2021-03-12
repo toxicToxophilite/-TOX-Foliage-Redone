@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+<ThingDef ParentName="TreeBase">
+	<defName>Tox_Bamboo</defName>
+    <label>bamboo</label>
+		<description>A fast-growing tree-like species that grows in cluster. Bamboo can be harvested for a wood-like material.</description>
+		<graphicData>
+			<texPath>Plants/TreeBamboo/Mature</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.38, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.47)</offset>
+			</shadowData>
+		</graphicData>
+    <statBases>
+      <Beauty>10</Beauty>
+      <Nutrition>1</Nutrition>
+    </statBases>
+    <plant>
+		<harvestedThingDef>Tox_BambooLog</harvestedThingDef>
+		<harvestTag>Wood</harvestTag>
+		<harvestYield>14</harvestYield>
+		<sowMinSkill>4</sowMinSkill>
+		<growDays>10</growDays>
+		<fertilitySensitivity>0.75</fertilitySensitivity>
+		<wildClusterRadius>5</wildClusterRadius>
+		<wildClusterWeight>15</wildClusterWeight>
+		<immatureGraphicPath>Plants/TreeBamboo/Immature</immatureGraphicPath>
+		<wildOrder>2</wildOrder>
+      <maxMeshCount>4</maxMeshCount>
+      <blockAdjacentSow>false</blockAdjacentSow>
+	<wildBiomes>
+		<TropicalRainforest>0.3</TropicalRainforest>
+		<TropicalSwamp>0.3</TropicalSwamp>
+	</wildBiomes>
+      <visualSizeRange>1.5~2.5</visualSizeRange>
+   </plant>
+  </ThingDef>
+  
+</Defs>

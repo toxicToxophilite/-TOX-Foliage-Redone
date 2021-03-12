@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_TreeDrago"]/label</xpath>
+	  <value>
+		<label>Dragon's Blood Tree</label>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_TreeDrago"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plants/TreeDrago</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.24, 0.35, 0.13)</volume>
+        <offset>(0,0,-0.38)</offset>
+      </shadowData>
+		</graphicData>
+	  </value>
+	</Operation>
+
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_TreeDrago"]/plant</xpath>
+	  <value>
+<plant>
+      <growDays>15</growDays>
+      <harvestWork>750</harvestWork>
+      <harvestYield>25</harvestYield>
+      <wildClusterRadius>6</wildClusterRadius>
+      <wildClusterWeight>3</wildClusterWeight>
+      <visualSizeRange>4.5~5.5</visualSizeRange>
+</plant>
+	  </value>
+	</Operation>
+
+
+
+</Patch>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_TreeCypress"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plants/TreeCypress/Mature</texPath>
+      		  <graphicClass>Graphic_Random</graphicClass>
+      		  <shadowData>
+        		<volume>(0.2, 0.35, 0.13)</volume>
+        		<offset>(-0.03,0,-0.44)</offset>
+      		  </shadowData>
+		</graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_TreeCypress"]/statBases</xpath>
+	  <value>
+	    <statBases>
+      <Beauty>2</Beauty>
+    	    </statBases>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_TreeCypress"]/plant</xpath>
+	  <value>
+	    <plant>
+      		<leaflessGraphicPath>Plants/TreeCypress/Leafless</leaflessGraphicPath>
+      		<growDays>36</growDays>
+      		<harvestWork>1800</harvestWork>
+      		<harvestYield>60</harvestYield>
+      		<blockAdjacentSow>true</blockAdjacentSow>
+      		<visualSizeRange>5.5~6</visualSizeRange>
+    	    </plant>
+	  </value>
+	</Operation>
+
+
+</Patch>

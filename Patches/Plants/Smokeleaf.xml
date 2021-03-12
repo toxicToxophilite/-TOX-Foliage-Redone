@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Smokeleaf"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plants/Smokeleaf/Mature</texPath>
+      		  <graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Smokeleaf"]/statBases</xpath>
+	  <value>
+	    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <Beauty>4</Beauty>
+      <Nutrition>0.00000001</Nutrition>
+    	    </statBases>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Smokeleaf"]/plant</xpath>
+	  <value>
+	    <plant>
+      <growDays>6</growDays>
+      <leaflessGraphicPath>Plants/Smokeleaf/Leafless</leaflessGraphicPath>
+      <immatureGraphicPath>Plants/Smokeleaf/Leafless</immatureGraphicPath>
+      <maxMeshCount>1</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>Smokeleaf</harvestedThingDef>
+      <harvestYield>9</harvestYield>
+      <harvestWork>900</harvestWork>
+      <sowMinSkill>5</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <visualSizeRange>0.3~1.25</visualSizeRange>
+    	    </plant>
+	  </value>
+	</Operation>
+
+
+</Patch>

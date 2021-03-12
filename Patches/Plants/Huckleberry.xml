@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Berry"]/label</xpath>
+	  <value>
+		<label>Huckleberry Bush</label>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Berry"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plants/Huckleberry/Mature</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.55, 0.2, 0.2)</volume>
+        <offset>(0,0,-0.25)</offset>
+      </shadowData>
+		</graphicData>
+	  </value>
+	</Operation>
+
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Berry"]/plant</xpath>
+	  <value>
+<plant>
+      <fertilityMin>0.5</fertilityMin>
+      <fertilitySensitivity>0.5</fertilitySensitivity>
+      <growDays>6</growDays>
+      <leaflessGraphicPath>Plants/Huckleberry/Leafless</leaflessGraphicPath>
+      <immatureGraphicPath>Plants/Huckleberry/Immature</immatureGraphicPath>
+      <maxMeshCount>25</maxMeshCount>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestYield>10</harvestYield>
+      <harvestWork>250</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestAfterGrowth>0.30</harvestAfterGrowth>
+      <harvestedThingDef>RawBerries</harvestedThingDef>
+      <wildClusterRadius>5</wildClusterRadius>
+      <wildClusterWeight>250</wildClusterWeight>
+      <visualSizeRange>0.7~1.0</visualSizeRange>
+      <topWindExposure>0.3</topWindExposure>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+</plant>
+	  </value>
+	</Operation>
+
+
+
+</Patch>
