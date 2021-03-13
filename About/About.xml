@@ -1,10 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>[ TOX ] Foliage Redone</name>
-  <packageId>toxixtoxophilite.foliage</packageId>
+  <packageId>toxictoxophilite.foliage</packageId>
   <author>toxicToxophilite</author>
   <supportedVersions>
     <li>1.2</li>
   </supportedVersions>
   <description>An overhaul of the plant visuals in the game, as well as the addition of plenty more plants and other features!</description>
+  <loadAfter>
+    <li>Mlie.AdvancedBiomes</li>
+    <li>sarg.alphabiomes</li>
+    <li>BiomesTeam.BiomesIslands</li>
+    <li>zylle.MoreVanillaBiomes</li>
+    <li>SaucyPigeon.RealisticPlanets</li>
+  </loadAfter>
 </ModMetaData>

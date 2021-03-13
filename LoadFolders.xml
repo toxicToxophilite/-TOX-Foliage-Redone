@@ -1,11 +1,11 @@
 <loadFolders>
   <v1.2>
     <li>/</li>
-    <li>ReGrowth</li>
-    <li>AlphaBiomes</li>
-    <li>Biomes!</li>
-    <li>More Vanilla Biomes</li>
-    <li>RRP</li>
-    <li>Advanced Biomes</li>
+    <li>1.2</li>
+    <li IfModActive="sarg.alphabiomes">AlphaBiomes</li>
+    <li IfModActive="BiomesTeam.BiomesIslands">Biomes!</li>
+    <li IfModActive="zylle.MoreVanillaBiomes">More Vanilla Biomes</li>
+    <li IfModActive="SaucyPigeon.RealisticPlanets">RRP</li>
+    <li IfModActive="Mlie.AdvancedBiomes">Advanced Biomes</li>
   </v1.2>
 </loadFolders>
