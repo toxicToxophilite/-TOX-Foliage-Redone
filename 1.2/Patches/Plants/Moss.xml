@@ -27,6 +27,8 @@
       <visualSizeRange>0.4~0.6</visualSizeRange>
       <topWindExposure>0.0</topWindExposure>
       <wildOrder>1</wildOrder>
+	<harvestAfterGrowth>0.20</harvestAfterGrowth>
+	<harvestMinGrowth>0.40</harvestMinGrowth>
     </plant>
 	  </value>
 	</Operation>

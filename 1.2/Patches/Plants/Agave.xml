@@ -34,5 +34,14 @@
 	  </value>
 	</Operation>
 
+<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "Plant_Agave"]/plant</xpath>
+	  <value>
+      <sowTags>
+	<li>Ground</li>
+      </sowTags>
+	  </value>
+	</Operation>
+
 
 </Patch>

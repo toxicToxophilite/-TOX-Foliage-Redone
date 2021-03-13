@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Kibble"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Drugs/Food/Kibble</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "Kibble"]/statBases/Nutrition</xpath>
+		<value>
+			<Nutrition>0.50</Nutrition>
+		</value>
+	</Operation>
+
+
+</Patch>

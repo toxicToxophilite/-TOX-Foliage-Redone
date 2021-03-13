@@ -40,6 +40,8 @@
       <wildClusterRadius>4</wildClusterRadius>
       <wildClusterWeight>10</wildClusterWeight>
       <wildOrder>1</wildOrder>
+	<harvestAfterGrowth>0.20</harvestAfterGrowth>
+	<harvestMinGrowth>0.40</harvestMinGrowth>
     </plant>
 	  </value>
 	</Operation>

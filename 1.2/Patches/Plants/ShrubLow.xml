@@ -35,6 +35,8 @@
       <wildClusterWeight>40</wildClusterWeight>
       <wildOrder>1</wildOrder>
       <wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+	<harvestAfterGrowth>0.20</harvestAfterGrowth>
+	<harvestMinGrowth>0.40</harvestMinGrowth>
     </plant>
 	  </value>
 	</Operation>

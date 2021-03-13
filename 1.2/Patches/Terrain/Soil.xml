@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <success>Normal</success>
+        <operations>
+            <!-- Add constructable -->
+            <li Class="PatchOperationInsert">
+                <xpath>/Defs/TerrainDef[defName="Soil"]/renderPrecedence</xpath>
+                <value>
+                    <designationCategory>Floors</designationCategory>
+                </value>
+            </li>
+            <li Class="PatchOperationInsert">
+                <xpath>/Defs/TerrainDef[defName="Soil"]/designationCategory</xpath>
+                <value>
+                    <constructEffect>ConstructDirt</constructEffect>
+                </value>
+            </li>
+
+            <!-- Add Desc -->
+            <li Class="PatchOperationInsert">
+                <xpath>/Defs/TerrainDef[defName="Soil"]/label</xpath>
+                <value>
+                    <description>Dirt, there's a lot of it. Tastes like... Dirt.</description>
+                </value>
+            </li>
+
+            <!-- Beauty -->
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="Soil"]/statBases/Beauty</xpath>
+                <value>
+                    <Beauty>2</Beauty>
+                </value>
+            </li>
+            <!-- Add work to build -->
+            <li Class="PatchOperationInsert">
+                <xpath>/Defs/TerrainDef[defName="Soil"]/statBases/Cleanliness</xpath>
+                <value>
+                    <WorkToBuild>10</WorkToBuild>
+                </value>
+            </li>
+
+            <!-- Remove Filth from Dirt -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/TerrainDef[defName="Soil"]/generatedFilth</xpath>
+            </li>
+
+
+        </operations>
+    </Operation>
+
+   

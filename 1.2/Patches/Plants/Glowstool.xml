@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Glowstool"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plants/Glowstool</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Glowstool"]/plant</xpath>
+	  <value>
+	    <plant>
+      <fertilityMin>0.01</fertilityMin>
+      <fertilitySensitivity>0.15</fertilitySensitivity>
+      <growDays>8.3</growDays>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestYield>16</harvestYield>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawFungus</harvestedThingDef>
+      <maxMeshCount>4</maxMeshCount>
+      <neverBlightable>true</neverBlightable>
+      <visualSizeRange>0.4~0.7</visualSizeRange>
+      <topWindExposure>0.05</topWindExposure>
+      <wildClusterRadius>3</wildClusterRadius>
+      <wildClusterWeight>5</wildClusterWeight>
+      <purpose>Food</purpose>
+      <harvestAfterGrowth>0.05</harvestAfterGrowth>
+	<sowTags>
+		<li>Ground</li>
+		<li>Hydroponic</li>
+	</sowTags>
+    </plant>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Glowstool"]/comps</xpath>
+	  <value>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>5</glowRadius>
+        <glowColor>(167,119,18,.3)</glowColor>
+      </li>
+    </comps>
+	  </value>
+	</Operation>
+
+
+</Patch>

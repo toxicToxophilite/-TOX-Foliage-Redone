@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "WoolBase"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Items/Wool</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	  </value>
+	</Operation>
+
+
+</Patch>
