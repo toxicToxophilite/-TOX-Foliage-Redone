@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Devilstrand"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plants/Devilstrand/Mature</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Devilstrand"]/plant</xpath>
+	  <value>
+	    <plant>
+      <immatureGraphicPath>Plants/Devilstrand/Immature</immatureGraphicPath>
+      <maxMeshCount>9</maxMeshCount>
+      <harvestAfterGrowth>0.05</harvestAfterGrowth>
+      <growDays>22.5</growDays>
+      <sowWork>400</sowWork>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>DevilstrandCloth</harvestedThingDef>
+      <harvestYield>6</harvestYield>
+      <neverBlightable>true</neverBlightable>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <sowMinSkill>10</sowMinSkill>
+      <sowResearchPrerequisites>
+        <li>Devilstrand</li>
+      </sowResearchPrerequisites>
+      <topWindExposure>0.1</topWindExposure>
+      <wildOrder>2</wildOrder>
+    </plant>
+	  </value>
+	</Operation>
+
+
+</Patch>

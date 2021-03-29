@@ -7,7 +7,6 @@
     <description>A leafy crop grown for the psychological effects of chemicals in its leaves. Dreamleaf leaves can be prepared into joints at the crafting spot.</description>
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
-      <Nutrition>0.25</Nutrition>
       <Beauty>1</Beauty>
       <Nutrition>0.00000001</Nutrition>
     </statBases>

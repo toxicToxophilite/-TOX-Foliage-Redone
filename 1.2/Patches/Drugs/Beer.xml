@@ -6,7 +6,7 @@
 	  <xpath>*/ThingDef[defName = "Beer"]/graphicData</xpath>
 	  <value>
 	    <graphicData>
-		  <texPath>Drugs/Beer</texPath>
+		  <texPath>Drugs/Drinks/Beer</texPath>
 		  <graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 	  </value>

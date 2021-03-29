@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>Tox_AloeVera</defName>
+    <label>Aloe Vera</label>
+    <description>Aloe vera is a succulent plant species of the genus Aloe. An evergreen perennial that grows wild in warmer climates and is cultivated for agricultural and medicinal uses.</description>
+    <graphicData>
+      <texPath>Plants/AloeVera/Mature</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+	<selectable>true</selectable>
+    <statBases>
+      <Beauty>1</Beauty>
+      <Nutrition>0.1</Nutrition>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <plant>
+	<immatureGraphicPath>Plants/AloeVera/Immature</immatureGraphicPath>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestedThingDef>AloeLeaves</harvestedThingDef>
+      <harvestYield>6</harvestYield>
+      <sowMinSkill>5</sowMinSkill>
+      <topWindExposure>0.05</topWindExposure>
+      <growDays>8</growDays>
+      <fertilitySensitivity>0.7</fertilitySensitivity>
+      <fertilityMin>0.45</fertilityMin>
+      <visualSizeRange>0.4~1.00</visualSizeRange>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <sowWork>270</sowWork>
+      <harvestWork>180</harvestWork>
+      <purpose>Health</purpose>
+    </plant>
+  </ThingDef>
+
+  
+</Defs>

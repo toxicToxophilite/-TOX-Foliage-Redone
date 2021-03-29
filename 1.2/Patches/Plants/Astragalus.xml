@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Astragalus"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plants/Astragalus</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Astragalus"]/plant</xpath>
+	  <value>
+	    <plant>
+      <fertilityMin>0.05</fertilityMin>
+      <fertilitySensitivity>0</fertilitySensitivity>
+      <growDays>2.5</growDays>
+      <maxMeshCount>16</maxMeshCount>
+      <visualSizeRange>0.4~0.6</visualSizeRange>
+      <topWindExposure>0.3</topWindExposure>
+      <wildClusterRadius>4</wildClusterRadius>
+      <wildClusterWeight>4</wildClusterWeight>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+    </plant>
+	  </value>
+	</Operation>
+
+
+</Patch>

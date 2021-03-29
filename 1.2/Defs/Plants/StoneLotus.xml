@@ -19,12 +19,10 @@
         <volume>(0.3, 0.3, 0.3)</volume>
       </shadowData>
     </graphicData>
-    <altitudeLayer>Item</altitudeLayer>
     <selectable>true</selectable>
     <fillPercent>0.20</fillPercent>
     <pathCost>15</pathCost>
     <plant>
-      <immatureGraphicPath>Plants/StoneLotus/Immature</immatureGraphicPath>
       <fertilityMin>0.0</fertilityMin>
       <fertilitySensitivity>0</fertilitySensitivity>
       <topWindExposure>0.1</topWindExposure>
@@ -35,7 +33,6 @@
       <visualSizeRange>0.5~1.05</visualSizeRange>
       <growDays>1</growDays>
       <sowTags>
-        <li>Decorative</li>
         <li>Ground</li>
       </sowTags>
     </plant>

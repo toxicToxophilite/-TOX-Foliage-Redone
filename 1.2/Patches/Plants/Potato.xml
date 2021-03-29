@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Potato"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plants/Potato/Mature</texPath>
+      		  <graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Potato"]/plant</xpath>
+	  <value>
+	    <plant>
+      <immatureGraphicPath>Plants/Potato/Immature</immatureGraphicPath>
+      <fertilitySensitivity>0.4</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawPotatoes</harvestedThingDef>
+      <harvestYield>11</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>5.8</growDays>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+	<harvestAfterGrowth>0.20</harvestAfterGrowth>
+	<harvestMinGrowth>0.40</harvestMinGrowth>
+    	    </plant>
+	  </value>
+	</Operation>
+
+
+</Patch>

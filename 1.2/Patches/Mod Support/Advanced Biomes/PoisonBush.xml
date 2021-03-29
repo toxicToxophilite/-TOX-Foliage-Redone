@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 <Operation Class="PatchOperationReplace">
-	  <xpath>*/ThingDef[defName = "PoisonBush"]/graphicData</xpath>
+	  <xpath>*/ThingDef[defName = "PoisonPlantBush"]/graphicData</xpath>
 	  <value>
 	    <graphicData>
 		  <texPath>Plant/PoisonBush/Mature</texPath>
@@ -11,7 +11,7 @@
 	</Operation>
 
 <Operation Class="PatchOperationAdd">
-	  <xpath>*/ThingDef[defName = "PoisonBush"]/plant</xpath>
+	  <xpath>*/ThingDef[defName = "PoisonPlantBush"]/plant</xpath>
 	  <value>
 	    <plant>
       <immatureGraphicPath>Plant/PoisonBush/Immature</immatureGraphicPath>
@@ -20,7 +20,7 @@
 	</Operation>
 
 <Operation Class="PatchOperationReplace">
-	  <xpath>*/ThingDef[defName = "PoisonBush"]/plant/leaflessGraphicPath</xpath>
+	  <xpath>*/ThingDef[defName = "PoisonPlantBush"]/plant/leaflessGraphicPath</xpath>
 	  <value>
       <leaflessGraphicPath>Plant/PoisonBush/Leafless</leaflessGraphicPath>
 	  </value>

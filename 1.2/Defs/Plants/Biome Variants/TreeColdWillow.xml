@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="DeciduousTreeBase">
+    <defName>Tox_TreeColdWillow</defName>
+    <label>willow tree</label>
+    <description>One of the fastest growing shade trees, willows provide a beautiful, leafy canopy. It doesn't yield much usable wood.</description>
+    <graphicData>
+      <texPath>Plants/TreeColdWillow</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.2, 0.3, 0.13)</volume>
+        <offset>(0,0,-0.44)</offset>
+      </shadowData>
+      <shaderParameters>
+        <_FallColorSource>(0.373, 0.427, 0.313)</_FallColorSource>
+        <_FallTransitionRange>(0.02, 0.14)</_FallTransitionRange>
+      </shaderParameters>
+    </graphicData>
+    <statBases>
+      <Beauty>2</Beauty>
+    </statBases>
+    <plant>
+      		<leaflessGraphicPath>Plants/TreeWillow/Leafless</leaflessGraphicPath>
+      		<growDays>13</growDays>
+      		<harvestWork>800</harvestWork>
+      		<harvestYield>27</harvestYield>
+      		<blockAdjacentSow>true</blockAdjacentSow>
+      		<visualSizeRange>4.5~5</visualSizeRange>
+    </plant>
+  </ThingDef>
+
+</Defs>

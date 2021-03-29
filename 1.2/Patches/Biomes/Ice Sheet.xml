@@ -29,11 +29,12 @@
 		<xpath>/Defs/BiomeDef[defName = "IceSheet"]/wildPlants</xpath>
 		<value>
 		    <wildPlants>
+      			<Plant_Astragalus>0.05</Plant_Astragalus>
 			<Plant_Grass>7</Plant_Grass>
       			<Plant_Moss>6.5</Plant_Moss>
 			<Plant_Psychoid>0.03</Plant_Psychoid>
-			<Plant_TreePine>0.03</Plant_TreePine>
 	   		<Tox_Bearberry>0.25</Tox_Bearberry>
+      			<Tox_TreeColdPine>1.0</Tox_TreeColdPine>
 			<Tox_Vashna>0.001</Tox_Vashna>
 		    </wildPlants>
 		</value>

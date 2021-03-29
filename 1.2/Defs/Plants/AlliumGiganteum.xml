@@ -25,7 +25,6 @@
       <harvestTag>Standard</harvestTag>
       <sowWork>600</sowWork>
       <sowTags>
-        <li>Decorative</li>
         <li>Ground</li>
       </sowTags>
       <growMinGlow>0.3</growMinGlow>

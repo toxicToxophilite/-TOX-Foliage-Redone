@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Daylily"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plants/Daylily</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+	  </value>
+	</Operation>
+
+
+</Patch>

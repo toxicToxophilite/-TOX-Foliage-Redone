@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_PincushionCactus"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plants/CactusPincushion</texPath>
+      		  <graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_PincushionCactus"]/statBases</xpath>
+	  <value>
+	    <statBases>
+      		<Beauty>4</Beauty>
+      		<Nutrition>0.2</Nutrition>
+    	    </statBases>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_PincushionCactus"]/plant</xpath>
+	  <value>
+    <plant>
+      <fertilityMin>0.05</fertilityMin>
+      <fertilitySensitivity>0</fertilitySensitivity>
+      <growDays>2.5</growDays>
+      <visualSizeRange>0.6~0.9</visualSizeRange>
+      <topWindExposure>0.0</topWindExposure>
+      <wildClusterRadius>4</wildClusterRadius>
+      <wildClusterWeight>4</wildClusterWeight>
+      <maxMeshCount>4</maxMeshCount>
+      <wildOrder>2</wildOrder>
+    </plant>
+	  </value>
+	</Operation>
+
+
+
+
+</Patch>

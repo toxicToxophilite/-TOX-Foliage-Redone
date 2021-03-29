@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
   
- <Operation Class="PatchOperationAdd">
+ 
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Ambrosia"]/graphicData</xpath>
+	  <value>
+    <graphicData>
+      <texPath>Plants/Ambrosia/Mature</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.1, 0.2, 0.1)</volume>
+      </shadowData>
+    </graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Ambrosia"]/statBases</xpath>
+	  <value>
+	    <statBases>
+      <Beauty>20</Beauty>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Nutrition>0.35</Nutrition>
+    	    </statBases>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Ambrosia"]/plant</xpath>
+	  <value>
+	    <plant>
+      		<leaflessGraphicPath>Plants/Ambrosia/Leafless</leaflessGraphicPath>
+      		<immatureGraphicPath>Plants/Ambrosia/Immature</immatureGraphicPath>
+      		<harvestYield>8</harvestYield>
+      		<harvestTag>Standard</harvestTag>
+      		<harvestAfterGrowth>0.3</harvestAfterGrowth>
+      		<harvestedThingDef>Ambrosia</harvestedThingDef>
+      		<visualSizeRange>1.6~1.9</visualSizeRange>
+      		<topWindExposure>0.1</topWindExposure>
+      		<wildOrder>2</wildOrder>
+      		<purpose>Food</purpose>
+		<sowMinSkill>20</sowMinSkill>
+    	    </plant>
+	  </value>
+	</Operation>
+
+
+<Operation Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[defName = "Plant_Ambrosia"]</xpath>
 		<value>
 			<comps>

@@ -27,29 +27,35 @@
 		<xpath>/Defs/BiomeDef[defName = "ColdBog"]/wildPlants</xpath>
 		<value>
 		    <wildPlants>
-      			<Plant_Astragalus>0.1</Plant_Astragalus>
-      			<Plant_Berry>0.3</Plant_Berry>
-	   		<Plant_Brambles>1</Plant_Brambles>
-      			<Plant_Bush>0.3</Plant_Bush>
+      			<Plant_Astragalus>0.5</Plant_Astragalus>
 			<Plant_Chokevine>3.0</Plant_Chokevine>
-			<Plant_Dandelion>0.15</Plant_Dandelion>
-			<Plant_Grass>15.0</Plant_Grass>
+			<Plant_Corn>0.03</Plant_Corn>
+			<Plant_Cotton>0.03</Plant_Cotton>
+			<Plant_Haygrass>0.02</Plant_Haygrass>
       			<Plant_HealrootWild>0.05</Plant_HealrootWild>
       			<Plant_Moss>3.0</Plant_Moss>
 			<Plant_Psychoid>0.03</Plant_Psychoid>
-      			<Plant_TallGrass>2.5</Plant_TallGrass>
-      			<Plant_TreeCypress>1.6</Plant_TreeCypress>
-      			<Plant_TreeMaple>1.6</Plant_TreeMaple>
-			<Plant_TreeOak>0.15</Plant_TreeOak>
-			<Plant_TreePine>0.2</Plant_TreePine>
+      			<Plant_Rice>0.03</Plant_Rice>
 			<Plant_TreePoplar>0.15</Plant_TreePoplar>
-      			<Plant_TreeWillow>1.6</Plant_TreeWillow> 
 	   		<Tox_Amastani>0.05</Tox_Amastani> 
 	   		<Tox_Bearberry>0.25</Tox_Bearberry>
 	   		<Tox_Camellia>0.3</Tox_Camellia>
 	   		<Tox_Clover>4</Tox_Clover> 
 			<Tox_Daisies>0.06</Tox_Daisies>
 	   		<Tox_Daritora>0.05</Tox_Daritora> 
+	   		<Tox_Daylily>0.5</Tox_Daylily> 
+      			<Tox_DryBerry>0.3</Tox_DryBerry>
+	   		<Tox_DryBrambles>1</Tox_DryBrambles>
+      			<Tox_DryBush>0.3</Tox_DryBush>
+			<Tox_DryDandelion>0.15</Tox_DryDandelion>
+			<Tox_DryGrass>15.0</Tox_DryGrass>
+      			<Tox_DryTallGrass>2.5</Tox_DryTallGrass>
+	   		<Tox_Rose>0.5</Tox_Rose> 
+      			<Tox_TreeColdCypress>0.3</Tox_TreeColdCypress>
+      			<Tox_TreeColdMaple>0.3</Tox_TreeColdMaple>
+			<Tox_TreeColdOak>0.15</Tox_TreeColdOak>
+			<Tox_TreeColdPine>0.2</Tox_TreeColdPine>
+      			<Tox_TreeColdWillow>0.3</Tox_TreeColdWillow> 
 	   		<Tox_Vashna>0.001</Tox_Vashna>
 		    </wildPlants>
 		</value>

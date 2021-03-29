@@ -31,9 +31,7 @@
 		    <wildPlants>
 			<Plant_Agave>0.25</Plant_Agave>
 			<Plant_Alocasia>0.001</Plant_Alocasia>
-			<Plant_Bush>0.5</Plant_Bush>
-			<Plant_Dandelion>0.5</Plant_Dandelion>
-			<Plant_Grass>12.0</Plant_Grass>
+			<Plant_Corn>0.03</Plant_Corn>
 			<Plant_HealrootWild>0.16</Plant_HealrootWild>
 			<Plant_PincushionCactus>1.5</Plant_PincushionCactus>    			   
 	   		<Plant_Psychoid>0.03</Plant_Psychoid>    	
@@ -42,8 +40,11 @@
 			<Plant_TreeMaple>0.25</Plant_TreeMaple>
 			<Plant_TreePalm>0.25</Plant_TreePalm>
            		<Plant_TreePoplar>0.05</Plant_TreePoplar>
-			<Tox_Camellia>0.001</Tox_Camellia>
+      			<Tox_AloeVera>0.05</Tox_AloeVera>
 			<Tox_Daisies>0.012</Tox_Daisies>
+			<Tox_DryBush>0.5</Tox_DryBush>
+			<Tox_DryDandelion>0.5</Tox_DryDandelion>
+			<Tox_DryGrass>12.0</Tox_DryGrass>
 	   		<Tox_Vashna>0.001</Tox_Vashna>
 			<Tox_WildDreamleaf>0.025</Tox_WildDreamleaf>
 			<Tox_WildHazeleaf>0.035</Tox_WildHazeleaf>

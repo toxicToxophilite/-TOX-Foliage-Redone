@@ -7,7 +7,6 @@
     <description>A leafy crop grown for the psychological effects of chemicals in its leaves. Smokeleaf leaves can be prepared into joints at the crafting spot.</description>
     <statBases>
       <MaxHitPoints>175</MaxHitPoints>
-      <Nutrition>0.15</Nutrition>
       <Beauty>2</Beauty>
       <Nutrition>0.00000001</Nutrition>
     </statBases>

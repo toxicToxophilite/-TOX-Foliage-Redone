@@ -19,7 +19,6 @@
         <volume>(0.3, 0.3, 0.3)</volume>
       </shadowData>
     </graphicData>
-    <altitudeLayer>Item</altitudeLayer>
     <selectable>true</selectable>
     <fillPercent>0.20</fillPercent>
     <pathCost>15</pathCost>
@@ -31,9 +30,6 @@
       <harvestAfterGrowth>0</harvestAfterGrowth>
       <visualSizeRange>0.3~1.05</visualSizeRange>
       <growDays>1</growDays>
-      <sowTags>
-        <li>Decorative</li>
-      </sowTags>
     </plant>
 <comps>
       <li Class="CompProperties_Glower">

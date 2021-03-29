@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>Tox_AloeLeaves</defName>
+    <label>Aloe Leaves</label>
+    <description>Leaves of the aloe vera plant.</description>
+    <graphicData>
+      <texPath>Resources/Raw/Aloe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.4</MarketValue>
+      <Mass>0.03</Mass>
+      <Nutrition>0.03</Nutrition>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnlyForHumanlikes</preferability>
+      <foodType>Plant</foodType>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>48</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+	
+
+  
+</Defs>

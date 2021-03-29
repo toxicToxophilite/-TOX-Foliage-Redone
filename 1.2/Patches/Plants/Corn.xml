@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Corn"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plants/Corn/Mature</texPath>
+      		  <graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Corn"]/plant</xpath>
+	  <value>
+	    <plant>
+      <immatureGraphicPath>Plants/Corn/Immature</immatureGraphicPath>
+      <fertilityMin>0.70</fertilityMin>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawCorn</harvestedThingDef>
+      <harvestYield>22</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <topWindExposure>0.35</topWindExposure>
+      <growDays>11.3</growDays>
+      <visualSizeRange>0.3~1.4</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+    	    </plant>
+	  </value>
+	</Operation>
+
+
+</Patch>

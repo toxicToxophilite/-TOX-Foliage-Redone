@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="PlantBase">
+    <defName>Tox_PincushionPot</defName>
+    <label>Pincushion Cactus</label>
+    <description>A short cactus. It is so named because it resembles a pincushion.</description>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Beauty>10</Beauty>
+      <Nutrition>0.01</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Plants/PottedPlants/CactusPincushion</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <selectable>true</selectable>
+    <uiIconScale>0.5</uiIconScale>
+    <plant>
+      <sowWork>200</sowWork>
+	<sowTags>
+	    <li>Decorative</li>
+	</sowTags>
+      <growDays>2.5</growDays>
+      <visualSizeRange>0.40~0.65</visualSizeRange>
+      <growMinGlow>0.3</growMinGlow>
+      <topWindExposure>0.0</topWindExposure>
+      <lifespanDaysPerGrowDays>8</lifespanDaysPerGrowDays>
+    </plant>
+  </ThingDef>
+
+</Defs>

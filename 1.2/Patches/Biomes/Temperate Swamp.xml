@@ -33,11 +33,15 @@
       			<Plant_Bush>0.2</Plant_Bush>
       			<Plant_Chokevine>0.8</Plant_Chokevine>
       			<Plant_Clivia>0.03</Plant_Clivia>
+			<Plant_Corn>0.03</Plant_Corn>
+			<Plant_Cotton>0.03</Plant_Cotton>
 			<Plant_Dandelion>1</Plant_Dandelion>
 			<Plant_Grass>1</Plant_Grass>
+			<Plant_Haygrass>0.5</Plant_Haygrass>
       			<Plant_HealrootWild>0.05</Plant_HealrootWild>
       			<Plant_Moss>2.2</Plant_Moss>
 			<Plant_Psychoid>0.03</Plant_Psychoid>
+      			<Plant_Rice>0.03</Plant_Rice>
 			<Plant_ShrubLow>2.0</Plant_ShrubLow>
 			<Plant_TallGrass>5.2</Plant_TallGrass>
 			<Plant_TreeCecropia>0.03</Plant_TreeCecropia>
@@ -49,6 +53,7 @@
 			<Plant_TreePoplar>0.2</Plant_TreePoplar>
 			<Plant_TreeTeak>0.2</Plant_TreeTeak>
       			<Plant_TreeWillow>0.2</Plant_TreeWillow> 
+      			<Tox_AloeVera>0.02</Tox_AloeVera>
 	   		<Tox_Amastani>0.07</Tox_Amastani> 
 	   		<Tox_AlliumGiganteum>0.1</Tox_AlliumGiganteum>
 			<Tox_Buttercup>1</Tox_Buttercup>
@@ -57,6 +62,9 @@
 			<Tox_Daisies>1</Tox_Daisies> 
 	   		<Tox_Dagim>0.07</Tox_Dagim> 
 	   		<Tox_Daritora>0.07</Tox_Daritora> 
+	   		<Tox_Daylily>0.5</Tox_Daylily> 
+	   		<Tox_Rose>0.5</Tox_Rose> 
+			<Tox_TreeCocoa>0.2</Tox_TreeCocoa>
 	   		<Tox_Vashna>0.001</Tox_Vashna>
 			<Tox_Wildberries>0.3</Tox_Wildberries>
 			<Tox_WildDreamleaf>0.05</Tox_WildDreamleaf>

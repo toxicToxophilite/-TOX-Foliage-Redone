@@ -14,7 +14,7 @@
 	  </value>
 	</Operation>
 
-<Operation Class="PatchOperatioAdd">
+<Operation Class="PatchOperationAdd">
 	  <xpath>*/ThingDef[defName = "PoisonBrambles"]/plant</xpath>
 	  <value>
 	    <plant>

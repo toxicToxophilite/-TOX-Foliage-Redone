@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
+<Operation Class="PatchOperationAdd">
+  <xpath>*/ThingDef[@Name = "HealrootBase"]</xpath>
+  <value>
+      <comps>
+        <li Class="CompProperties_Glower">
+          <glowRadius>3</glowRadius>
+          <glowColor>(75,150,150,0)</glowColor>
+        </li>
+      </comps>
+  </value>
+</Operation>
 
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/ThingDef[@Name = "HealrootBase"]</xpath>
-		<value>
-			<comps>
-			  <li Class="CompProperties_Glower">
-				<glowRadius>3</glowRadius>
-				<glowColor>(75,150,150,0)</glowColor>
-			  </li>
-			</comps>
-		</value>
-	</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[@Name = "HealrootBase"]/graphicData/texPath</xpath>
+  <value>
+      <texPath>Plants/Healroot/Mature</texPath>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+  <xpath>Defs/ThingDef[@Name = "HealrootBase"]/plant</xpath>
+  <value>
+      <immatureGraphicPath>Plants/Healroot/Immature</immatureGraphicPath>
+  </value>
+</Operation>
 	
 </Patch>
 

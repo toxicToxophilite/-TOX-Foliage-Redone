@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Agarilux"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plants/Agarilux</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Agarilux"]/plant</xpath>
+	  <value>
+	    <plant>
+      <fertilityMin>0.01</fertilityMin>
+      <fertilitySensitivity>0.15</fertilitySensitivity>
+      <growDays>60</growDays>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestYield>35</harvestYield>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawFungus</harvestedThingDef>
+      <neverBlightable>true</neverBlightable>
+      <visualSizeRange>1.9~2.5</visualSizeRange>
+      <topWindExposure>0.1</topWindExposure>
+      <cavePlantWeight>0.17</cavePlantWeight>
+      <purpose>Food</purpose>
+      <harvestAfterGrowth>0.05</harvestAfterGrowth>
+	<sowTags>
+		<li>Ground</li>
+	</sowTags>
+    </plant>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Glowstool"]/comps</xpath>
+	  <value>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>10</glowRadius>
+        <glowColor>(138,123,170,0)</glowColor>
+      </li>
+    </comps>
+	  </value>
+	</Operation>
+
+
+</Patch>

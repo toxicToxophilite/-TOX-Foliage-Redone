@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="DeciduousTreeBase">
+    <defName>Tox_TreeColdCypress</defName>
+    <label>cypress tree</label>
+    <description>A tall coniferous tree often found in swamps. Despite its slow growth, planting these trees can be profitable as a low-effort, long-term investment because they yield so much usable wood.</description>
+    <graphicData>
+      <texPath>Plants/TreeColdCypress</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.24, 0.4, 0.13)</volume>
+        <offset>(-0.03,0,-0.44)</offset>
+      </shadowData>
+      <shaderParameters>
+        <_FallColorSource>(0.373, 0.427, 0.313)</_FallColorSource>
+        <_FallTransitionRange>(0.02, 0.14)</_FallTransitionRange>
+      </shaderParameters>
+    </graphicData>
+    <statBases>
+      <Beauty>2</Beauty>
+    </statBases>
+    <plant>
+      <growDays>35</growDays>
+      		<leaflessGraphicPath>Plants/TreeCypress/Leafless</leaflessGraphicPath>
+      		<growDays>36</growDays>
+      		<harvestWork>1800</harvestWork>
+      		<harvestYield>60</harvestYield>
+      		<blockAdjacentSow>true</blockAdjacentSow>
+      		<visualSizeRange>5.5~6</visualSizeRange>
+    </plant>
+  </ThingDef>
+
+</Defs>

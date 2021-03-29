@@ -30,7 +30,7 @@
       <immatureGraphicPath>Plants/Smokeleaf/Leafless</immatureGraphicPath>
       <maxMeshCount>1</maxMeshCount>
       <harvestTag>Standard</harvestTag>
-      <harvestedThingDef>Smokeleaf</harvestedThingDef>
+      <harvestedThingDef>SmokeleafLeaves</harvestedThingDef>
       <harvestYield>9</harvestYield>
       <harvestWork>900</harvestWork>
       <sowMinSkill>5</sowMinSkill>

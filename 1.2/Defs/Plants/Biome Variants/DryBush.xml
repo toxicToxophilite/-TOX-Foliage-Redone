@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BushBase">
+    <defName>Tox_DryBush</defName>
+    <label>bush</label>
+    <description>A short shrub. Does not typically talk.</description>
+    <graphicData>
+      <texPath>Plants/DryBush/Mature</texPath>
+      <drawSize>1.15</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.2, 0.2)</volume>
+      </shadowData>
+    </graphicData>
+    <uiIconScale>0.85</uiIconScale>
+    <plant>
+      <growDays>3</growDays>
+      <leaflessGraphicPath>Plants/DryBush/Leafless</leaflessGraphicPath>
+    </plant>
+  </ThingDef>
+
+</Defs>

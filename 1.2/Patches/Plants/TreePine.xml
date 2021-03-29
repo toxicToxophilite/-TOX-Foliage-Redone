@@ -32,7 +32,6 @@
       		<harvestWork>800</harvestWork>
       		<harvestYield>60</harvestYield>
       		<wildClusterWeight>35</wildClusterWeight>
-      		<blockAdjacentSow>false</blockAdjacentSow>
       		<visualSizeRange>3.5~5</visualSizeRange>
     	    </plant>
 	  </value>

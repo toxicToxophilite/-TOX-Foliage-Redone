@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Haygrass"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plants/Haygrass</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_Haygrass"]/plant</xpath>
+	  <value>
+	    <plant>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+      <growDays>7</growDays>
+      <dieIfLeafless>true</dieIfLeafless>
+      <maxMeshCount>16</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>Hay</harvestedThingDef>
+      <harvestYield>18</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <visualSizeRange>0.3~0.8</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Food</purpose>
+    </plant>
+	  </value>
+	</Operation>
+
+
+</Patch>

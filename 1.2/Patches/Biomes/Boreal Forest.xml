@@ -60,21 +60,24 @@
 		<xpath>/Defs/BiomeDef[defName = "BorealForest"]/wildPlants</xpath>
 		<value>
 		    <wildPlants>
+      			<Plant_Astragalus>0.5</Plant_Astragalus>
 			<Plant_Berry>0.4</Plant_Berry>
 			<Plant_Brambles>2.0</Plant_Brambles>
 			<Plant_Bush>3.0</Plant_Bush>
+			<Plant_Corn>0.03</Plant_Corn>
+			<Plant_Cotton>0.03</Plant_Cotton>
 			<Plant_Dandelion>0.3</Plant_Dandelion>
 			<Plant_Grass>10.0</Plant_Grass>
+			<Plant_Haygrass>4.0</Plant_Haygrass>
 			<Plant_HealrootWild>0.2</Plant_HealrootWild>
 			<Plant_Moss>4.0</Plant_Moss>
 			<Plant_Psychoid>0.03</Plant_Psychoid>
 			<Plant_TallGrass>10.0</Plant_TallGrass>
-			<Plant_TreeBirch>7.5</Plant_TreeBirch>
-          		<Plant_TreeCypress>0.05</Plant_TreeCypress>
+			<Plant_TreeBirch>1.5</Plant_TreeBirch>
 			<Plant_TreeMaple>0.04</Plant_TreeMaple>
 			<Plant_TreeOak>0.2</Plant_TreeOak>
-			<Plant_TreePine>10.0</Plant_TreePine>
-			<Plant_TreePoplar>7.2</Plant_TreePoplar>
+			<Plant_TreePine>2.0</Plant_TreePine>
+			<Plant_TreePoplar>1.2</Plant_TreePoplar>
           		<Plant_TreeWillow>0.03</Plant_TreeWillow>
 	   		<Tox_AlliumGiganteum>0.1</Tox_AlliumGiganteum> 
 	   		<Tox_Amastani>0.09</Tox_Amastani> 
@@ -85,8 +88,13 @@
 			<Tox_Daisies>0.1</Tox_Daisies>
 	   		<Tox_Dagim>0.07</Tox_Dagim> 
 	   		<Tox_Daritora>0.09</Tox_Daritora> 
+	   		<Tox_Daylily>0.5</Tox_Daylily> 
 	   		<Tox_Delphinium>0.15</Tox_Delphinium>  
 	   		<Tox_Mushroom>0.05</Tox_Mushroom> 
+	   		<Tox_Rose>0.5</Tox_Rose> 
+	   		<Tox_TreeColdBirch>0.05</Tox_TreeColdBirch> 
+	   		<Tox_TreeColdOak>0.05</Tox_TreeColdOak> 
+	   		<Tox_TreeColdPine>0.05</Tox_TreeColdPine> 
 	   		<Tox_Vashna>0.001</Tox_Vashna>
 			<Tox_Wildberries>0.3</Tox_Wildberries>
 			<Tox_WildDreamleaf>0.09</Tox_WildDreamleaf>

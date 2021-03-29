@@ -28,25 +28,28 @@
 		<value>
 		    <wildPlants>
 			<Plant_Astragalus>0.1</Plant_Astragalus>
-			<Plant_Berry>1.5</Plant_Berry>
-	   		<Plant_Brambles>4.0</Plant_Brambles>
-			<Plant_Bush>4.5</Plant_Bush>
-			<Plant_Dandelion>0.5</Plant_Dandelion>
-			<Plant_Grass>20.0</Plant_Grass>
+			<Plant_Corn>0.03</Plant_Corn>
+			<Plant_Cotton>0.03</Plant_Cotton>
 			<Plant_HealrootWild>0.2</Plant_HealrootWild>
 			<Plant_Moss>6.5</Plant_Moss>
 			<Plant_Psychoid>0.03</Plant_Psychoid>
-                        <Plant_TallGrass>3.5</Plant_TallGrass>
-      			<Plant_TreeBirch>0.9</Plant_TreeBirch>
-          		<Plant_TreeCypress>0.001</Plant_TreeCypress>
-			<Plant_TreeMaple>0.003</Plant_TreeMaple>
-      			<Plant_TreePine>5.0</Plant_TreePine>
           		<Plant_TreePoplar>0.002</Plant_TreePoplar>
-          		<Plant_TreeWillow>0.001</Plant_TreeWillow>
 	   		<Tox_Bearberry>0.25</Tox_Bearberry>
 	   		<Tox_Camellia>0.2</Tox_Camellia>
 			<Tox_Daisies>0.01</Tox_Daisies>
 	   		<Tox_Dagim>0.07</Tox_Dagim> 
+			<Tox_DryBerry>1.5</Tox_DryBerry>
+	   		<Tox_DryBrambles>4.0</Tox_DryBrambles>
+			<Tox_DryBush>4.5</Tox_DryBush>
+			<Tox_DryDandelion>0.5</Tox_DryDandelion>
+			<Tox_DryGrass>20.0</Tox_DryGrass>
+                        <Tox_DryTallGrass>3.5</Tox_DryTallGrass>
+      			<Tox_TreeColdBirch>0.9</Tox_TreeColdBirch>
+          		<Tox_TreeColdCypress>0.001</Tox_TreeColdCypress>
+			<Tox_TreeColdMaple>0.003</Tox_TreeColdMaple>
+      			<Tox_TreeColdPine>1.0</Tox_TreeColdPine>
+          		<Tox_TreeColdWillow>0.001</Tox_TreeColdWillow>
+	   		<Tox_Rose>0.5</Tox_Rose> 
 	   		<Tox_Vashna>0.001</Tox_Vashna>
 			<Tox_WildDreamleaf>0.065</Tox_WildDreamleaf>
 			<Tox_WildHazeleaf>0.085</Tox_WildHazeleaf>

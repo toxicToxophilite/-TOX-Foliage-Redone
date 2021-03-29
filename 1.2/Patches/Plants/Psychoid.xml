@@ -29,7 +29,8 @@
 		<sowMinSkill>6</sowMinSkill>
 		<topWindExposure>0.1</topWindExposure>
 		<visualSizeRange>0.3~0.8</visualSizeRange>
-		<wildOrder>1</wildOrder><immatureGraphicPath>Plants/Psychoid/Immature</immatureGraphicPath>
+		<wildOrder>1</wildOrder>
+		<immatureGraphicPath>Plants/Psychoid/Immature</immatureGraphicPath>
       <sowTags>
         <li>Ground</li>
         <li>Hydroponic</li>

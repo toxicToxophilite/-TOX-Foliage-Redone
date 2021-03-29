@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_SaguaroCactus"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plants/CactusSaguaro/Mature</texPath>
+      		  <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.24, 0.3, 0.15)</volume>
+        <offset>(0,0,-0.38)</offset>
+      </shadowData>
+		</graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_SaguaroCactus"]/statBases</xpath>
+	  <value>
+	    <statBases>
+      		<Beauty>4</Beauty>
+      		<Nutrition>1.5</Nutrition>
+    	    </statBases>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plant_SaguaroCactus"]/plant</xpath>
+	  <value>
+	    <plant>
+      <lifespanDaysPerGrowDays>40</lifespanDaysPerGrowDays>
+      <fertilityMin>0.05</fertilityMin>
+      <fertilitySensitivity>0</fertilitySensitivity>
+      <growDays>5</growDays>
+      <leaflessGraphicPath>Plants/CactusSaguaro/Leafless</leaflessGraphicPath>
+      <harvestWork>300</harvestWork>
+      <harvestYield>15</harvestYield>
+      <harvestMinGrowth>0.2</harvestMinGrowth>
+      <topWindExposure>0.08</topWindExposure>
+      <wildClusterRadius>-1</wildClusterRadius>
+      		<blockAdjacentSow>false</blockAdjacentSow>
+      		<visualSizeRange>2.5~6</visualSizeRange>
+    	    </plant>
+	  </value>
+	</Operation>
+
+
+</Patch>

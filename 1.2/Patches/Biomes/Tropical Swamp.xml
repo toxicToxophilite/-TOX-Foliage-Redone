@@ -54,25 +54,32 @@
 			<Plant_Alocasia>0.9</Plant_Alocasia>
       			<Plant_Berry>0.05</Plant_Berry>
 	   		<Plant_Brambles>0.01</Plant_Brambles>
-			<Plant_Bush>0.45</Plant_Bush>
 			<Plant_Chokevine>1.5</Plant_Chokevine>
       			<Plant_Clivia>0.8</Plant_Clivia>
+			<Plant_Corn>0.03</Plant_Corn>
+			<Plant_Cotton>0.03</Plant_Cotton>
 			<Plant_Grass>6.0</Plant_Grass>
+			<Plant_Haygrass>1.0</Plant_Haygrass>
 			<Plant_HealrootWild>0.3</Plant_HealrootWild>
 			<Plant_Psychoid>0.03</Plant_Psychoid>
       			<Plant_Rafflesia>0.01</Plant_Rafflesia>
+      			<Plant_Rice>0.03</Plant_Rice>
 			<Plant_ShrubLow>2.0</Plant_ShrubLow>
 			<Plant_TallGrass>4.8</Plant_TallGrass>
 			<Plant_TreeBamboo>1.5</Plant_TreeBamboo>
 			<Plant_TreeCecropia>1.05</Plant_TreeCecropia>
-			<Plant_TreeCypress>3.72</Plant_TreeCypress>
-			<Plant_TreeMaple>4.72</Plant_TreeMaple>
-			<Plant_TreePalm>2.0</Plant_TreePalm>
+			<Plant_TreeCocoa>0.2</Plant_TreeCocoa>
+			<Plant_TreeCypress>0.72</Plant_TreeCypress>
+			<Plant_TreeMaple>0.72</Plant_TreeMaple>
+			<Plant_TreePalm>1.0</Plant_TreePalm>
 			<Plant_TreeTeak>0.2</Plant_TreeTeak>
-			<Plant_TreeWillow>1.92</Plant_TreeWillow>
+			<Plant_TreeWillow>0.92</Plant_TreeWillow>
 	   		<Tox_AlliumGiganteum>0.1</Tox_AlliumGiganteum>
+      			<Tox_AloeVera>0.03</Tox_AloeVera>
 	   		<Tox_Camellia>0.005</Tox_Camellia>
 			<Tox_Daisies>0.012</Tox_Daisies>
+	   		<Tox_Rose>0.5</Tox_Rose> 
+			<Tox_TropicalBush>0.45</Tox_TropicalBush>
 	   		<Tox_Vashna>0.001</Tox_Vashna>
 			<Tox_Wildberries>0.5</Tox_Wildberries>
 			<Tox_WildDreamleaf>0.045</Tox_WildDreamleaf>

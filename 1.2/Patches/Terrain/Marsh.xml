@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/TerrainDef[defName = "Marsh"]/texturePath</xpath>
+	  <value>
+	    <texturePath>Terrain/Marsh</texturePath>
+	  </value>
+	</Operation>
+</Patch>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="DeciduousTreeBase">
+    <defName>Tox_TreeColdMaple</defName>
+    <label>maple tree</label>
+    <description>A common medium-sized tree, easily identifiable by its distinct three-pointed leaf.</description>
+    <graphicData>
+      <texPath>Plants/TreeColdMaple</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.14, 0.32, 0.12)</volume>
+        <offset>(0,0,-0.44)</offset>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <Beauty>2</Beauty>
+    </statBases>
+    <plant>
+      		<leaflessGraphicPath>Plants/TreeMaple/Leafless</leaflessGraphicPath>
+      		<growDays>27</growDays>
+      		<harvestWork>800</harvestWork>
+      		<harvestYield>27</harvestYield>
+      		<blockAdjacentSow>false</blockAdjacentSow>
+      		<visualSizeRange>3.5~4</visualSizeRange>
+    </plant>
+  </ThingDef>
+
+</Defs>

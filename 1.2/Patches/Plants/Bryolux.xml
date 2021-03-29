@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Bryolux"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Plants/Bryolux</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Bryolux"]/plant</xpath>
+	  <value>
+	    <plant>
+      <fertilityMin>0.01</fertilityMin>
+      <fertilitySensitivity>0.15</fertilitySensitivity>
+      <growDays>60</growDays>
+      <dieIfLeafless>true</dieIfLeafless>
+      <maxMeshCount>4</maxMeshCount>
+      <neverBlightable>true</neverBlightable>
+      <visualSizeRange>0.4~0.7</visualSizeRange>
+      <topWindExposure>0.02</topWindExposure>
+      <wildClusterRadius>3</wildClusterRadius>
+      <wildClusterWeight>5</wildClusterWeight>
+      <harvestAfterGrowth>0.05</harvestAfterGrowth>
+	<sowTags>
+		<li>Ground</li>
+	</sowTags>
+    </plant>
+	  </value>
+	</Operation>
+
+<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Bryolux"]/comps</xpath>
+	  <value>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>10</glowRadius>
+        <glowColor>(10,87,117,0)</glowColor>
+      </li>
+    </comps>
+	  </value>
+	</Operation>
+
+
+</Patch>
